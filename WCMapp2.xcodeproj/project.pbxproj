@@ -1,0 +1,2027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A51D1C91B7B3AB5005EAE6F /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D16A1B7B3AB5005EAE6F /* UMSocialLocalizable.strings */; };
+		3A51D1CA1B7B3AB5005EAE6F /* libUMSocial_Sdk_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1781B7B3AB5005EAE6F /* libUMSocial_Sdk_4.2.3.a */; };
+		3A51D1CB1B7B3AB5005EAE6F /* libUMSocial_Sdk_Comment_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1791B7B3AB5005EAE6F /* libUMSocial_Sdk_Comment_4.2.3.a */; };
+		3A51D1CC1B7B3AB5005EAE6F /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D17B1B7B3AB5005EAE6F /* UMSCommentDetailController.xib */; };
+		3A51D1CD1B7B3AB5005EAE6F /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D17C1B7B3AB5005EAE6F /* UMSCommentInputController.xib */; };
+		3A51D1CE1B7B3AB5005EAE6F /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D17D1B7B3AB5005EAE6F /* UMSCommentInputControlleriPad.xib */; };
+		3A51D1CF1B7B3AB5005EAE6F /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D17E1B7B3AB5005EAE6F /* UMShareEditViewController.xib */; };
+		3A51D1D01B7B3AB5005EAE6F /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D17F1B7B3AB5005EAE6F /* UMShareEditViewControlleriPad.xib */; };
+		3A51D1D11B7B3AB5005EAE6F /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D1801B7B3AB5005EAE6F /* UMSLoginViewController.xib */; };
+		3A51D1D21B7B3AB5005EAE6F /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D1811B7B3AB5005EAE6F /* UMSnsAccountViewController.xib */; };
+		3A51D1D31B7B3AB5005EAE6F /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D1821B7B3AB5005EAE6F /* UMSShareListController.xib */; };
+		3A51D1D41B7B3AB5005EAE6F /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D1831B7B3AB5005EAE6F /* UMSocialSDKResourcesNew.bundle */; };
+		3A51D1D51B7B3AB5005EAE6F /* libSocialFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1871B7B3AB5005EAE6F /* libSocialFacebook.a */; };
+		3A51D1D61B7B3AB5005EAE6F /* libSocialInstagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D18A1B7B3AB5005EAE6F /* libSocialInstagram.a */; };
+		3A51D1D71B7B3AB5005EAE6F /* libSocialLaiWang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D18D1B7B3AB5005EAE6F /* libSocialLaiWang.a */; };
+		3A51D1D81B7B3AB5005EAE6F /* libSocialLine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1901B7B3AB5005EAE6F /* libSocialLine.a */; };
+		3A51D1D91B7B3AB5005EAE6F /* libSocialRenren.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1931B7B3AB5005EAE6F /* libSocialRenren.a */; };
+		3A51D1DA1B7B3AB5005EAE6F /* RennSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1941B7B3AB5005EAE6F /* RennSDK.framework */; };
+		3A51D1DB1B7B3AB5005EAE6F /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1971B7B3AB5005EAE6F /* libSocialSina.a */; };
+		3A51D1DC1B7B3AB5005EAE6F /* libSocialSinaSSO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D19A1B7B3AB5005EAE6F /* libSocialSinaSSO.a */; };
+		3A51D1DD1B7B3AB5005EAE6F /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D19B1B7B3AB5005EAE6F /* libWeiboSDK.a */; };
+		3A51D1DE1B7B3AB5005EAE6F /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D1A41B7B3AB5005EAE6F /* WeiboSDK.bundle */; };
+		3A51D1DF1B7B3AB5005EAE6F /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1A81B7B3AB5005EAE6F /* libSocialQQ.a */; };
+		3A51D1E01B7B3AB6005EAE6F /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1A91B7B3AB5005EAE6F /* TencentOpenAPI.framework */; };
+		3A51D1E11B7B3AB6005EAE6F /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D1AA1B7B3AB5005EAE6F /* TencentOpenApi_IOS_Bundle.bundle */; };
+		3A51D1E21B7B3AB6005EAE6F /* libSocialTumblr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1AD1B7B3AB5005EAE6F /* libSocialTumblr.a */; };
+		3A51D1E31B7B3AB6005EAE6F /* libSocialTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1B01B7B3AB5005EAE6F /* libSocialTwitter.a */; };
+		3A51D1E41B7B3AB6005EAE6F /* ios-social-sdk-shake.html in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D1B31B7B3AB5005EAE6F /* ios-social-sdk-shake.html */; };
+		3A51D1E51B7B3AB6005EAE6F /* libUMSocial_Sdk_ScreenShot_1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1B41B7B3AB5005EAE6F /* libUMSocial_Sdk_ScreenShot_1.0.a */; };
+		3A51D1E61B7B3AB6005EAE6F /* ios-social-sdk-shake.html in Resources */ = {isa = PBXBuildFile; fileRef = 3A51D1B71B7B3AB5005EAE6F /* ios-social-sdk-shake.html */; };
+		3A51D1E71B7B3AB6005EAE6F /* libUMSocial_Sdk_Shake_1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1B81B7B3AB5005EAE6F /* libUMSocial_Sdk_Shake_1.0.a */; };
+		3A51D1E81B7B3AB6005EAE6F /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1BB1B7B3AB5005EAE6F /* libSocialWechat.a */; };
+		3A51D1E91B7B3AB6005EAE6F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1BC1B7B3AB5005EAE6F /* libWeChatSDK.a */; };
+		3A51D1EA1B7B3AB6005EAE6F /* libSocialWhatsapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1C11B7B3AB5005EAE6F /* libSocialWhatsapp.a */; };
+		3A51D1EB1B7B3AB6005EAE6F /* libSocialYiXin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1C41B7B3AB5005EAE6F /* libSocialYiXin.a */; };
+		3A51D1EC1B7B3AB6005EAE6F /* libYixinSDK_V2.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1C51B7B3AB5005EAE6F /* libYixinSDK_V2.2.a */; };
+		3A51D1EE1B7B3B1F005EAE6F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1ED1B7B3B1F005EAE6F /* Accounts.framework */; };
+		3A51D1F01B7B3B26005EAE6F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1EF1B7B3B26005EAE6F /* Security.framework */; };
+		3A51D2091B7B3C85005EAE6F /* UIActivityDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D1F21B7B3C85005EAE6F /* UIActivityDownload.m */; };
+		3A51D20A1B7B3C85005EAE6F /* UIActivityEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D1F41B7B3C85005EAE6F /* UIActivityEmail.m */; };
+		3A51D20B1B7B3C85005EAE6F /* UIActivityFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D1F61B7B3C85005EAE6F /* UIActivityFacebook.m */; };
+		3A51D20C1B7B3C85005EAE6F /* UIActivityItemImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D1F81B7B3C85005EAE6F /* UIActivityItemImage.m */; };
+		3A51D20D1B7B3C85005EAE6F /* UIActivityItemVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D1FA1B7B3C85005EAE6F /* UIActivityItemVideo.m */; };
+		3A51D20E1B7B3C85005EAE6F /* UIActivityQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D1FC1B7B3C85005EAE6F /* UIActivityQQ.m */; };
+		3A51D20F1B7B3C85005EAE6F /* UIActivityTencentWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D1FE1B7B3C85005EAE6F /* UIActivityTencentWeibo.m */; };
+		3A51D2101B7B3C85005EAE6F /* UIActivityTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D2001B7B3C85005EAE6F /* UIActivityTwitter.m */; };
+		3A51D2111B7B3C85005EAE6F /* UIActivityWechatFavorite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D2021B7B3C85005EAE6F /* UIActivityWechatFavorite.m */; };
+		3A51D2121B7B3C85005EAE6F /* UIActivityWechatSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D2041B7B3C85005EAE6F /* UIActivityWechatSession.m */; };
+		3A51D2131B7B3C85005EAE6F /* UIActivityWechatTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D2061B7B3C85005EAE6F /* UIActivityWechatTimeline.m */; };
+		3A51D2141B7B3C85005EAE6F /* UIActivityWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D2081B7B3C85005EAE6F /* UIActivityWeibo.m */; };
+		3A51D2171B7B3CA7005EAE6F /* ActivityWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A51D2161B7B3CA7005EAE6F /* ActivityWrapper.m */; };
+		3A51D2AA1B7B4123005EAE6F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D2A91B7B4123005EAE6F /* libsqlite3.0.dylib */; };
+		3A51D2AB1B7B4193005EAE6F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D5106218E9088B00A2EB3B /* CoreTelephony.framework */; };
+		3A51D2AD1B7B41B0005EAE6F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D2AC1B7B41B0005EAE6F /* CoreData.framework */; };
+		3A51D2AF1B7B41CA005EAE6F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D2AE1B7B41CA005EAE6F /* Photos.framework */; };
+		3A6EDE161BFDAAD400F9D8F9 /* Reachability+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6EDE151BFDAAD400F9D8F9 /* Reachability+Ext.m */; };
+		3AD493581C4F66ED001BE4EE /* libicatch_wificam_sdk_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD493551C4F66ED001BE4EE /* libicatch_wificam_sdk_arm64.a */; };
+		3AD493591C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD493561C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7.a */; };
+		3AD4935A1C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD493571C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7s.a */; };
+		3AF2AEEC1B40E90600C1351A /* WifiCamObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2AEEB1B40E90600C1351A /* WifiCamObserver.m */; };
+		3AF2AEF11B40EB9100C1351A /* WifiCamSDKEventListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2AEEF1B40EB9100C1351A /* WifiCamSDKEventListener.cpp */; };
+		C407C4811D2278AC00C457AC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C407C4801D2278AC00C457AC /* CoreBluetooth.framework */; };
+		C40AF8971D2DEA8D0054C4F9 /* MMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8961D2DEA8D0054C4F9 /* MMProgressHUD.m */; };
+		C40AF89A1D2DEB5F0054C4F9 /* MMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8991D2DEB5F0054C4F9 /* MMHud.m */; };
+		C40AF89E1D2DEC7C0054C4F9 /* MMProgressHUD+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF89D1D2DEC7C0054C4F9 /* MMProgressHUD+Animations.m */; };
+		C40AF8A11D2DEC8F0054C4F9 /* MMProgressHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8A01D2DEC8F0054C4F9 /* MMProgressHUDWindow.m */; };
+		C40AF8A41D2DECAE0054C4F9 /* MMProgressHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8A31D2DECAE0054C4F9 /* MMProgressHUDViewController.m */; };
+		C40AF8A71D2DECC70054C4F9 /* MMProgressHUDOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8A61D2DECC70054C4F9 /* MMProgressHUDOverlayView.m */; };
+		C40AF8AA1D2DECD40054C4F9 /* MMVectorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8A91D2DECD40054C4F9 /* MMVectorImage.m */; };
+		C40AF8AD1D2DECE40054C4F9 /* MMLinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8AC1D2DECE40054C4F9 /* MMLinearProgressView.m */; };
+		C40AF8B21D2DED430054C4F9 /* MMRadialProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8B11D2DED430054C4F9 /* MMRadialProgressView.m */; };
+		C40AF8B71D2E3DED0054C4F9 /* armed.wav in Resources */ = {isa = PBXBuildFile; fileRef = C40AF8B61D2E3DED0054C4F9 /* armed.wav */; };
+		C40AF8B91D2E3DF30054C4F9 /* disarmed.wav in Resources */ = {isa = PBXBuildFile; fileRef = C40AF8B81D2E3DF30054C4F9 /* disarmed.wav */; };
+		C40AF8BF1D2E47480054C4F9 /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40AF8BE1D2E47480054C4F9 /* ControlViewController.m */; };
+		C42C33731D24AA3D00B25C6F /* Transmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C336C1D24AA3D00B25C6F /* Transmitter.m */; };
+		C42C33741D24AA3D00B25C6F /* BleSerialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C336E1D24AA3D00B25C6F /* BleSerialManager.m */; };
+		C42C33751D24AA3D00B25C6F /* OSDCommon.mm in Sources */ = {isa = PBXBuildFile; fileRef = C42C33701D24AA3D00B25C6F /* OSDCommon.mm */; };
+		C42C33761D24AA3D00B25C6F /* OSDData.mm in Sources */ = {isa = PBXBuildFile; fileRef = C42C33721D24AA3D00B25C6F /* OSDData.mm */; };
+		C42C33791D24AF2A00B25C6F /* connected.wav in Resources */ = {isa = PBXBuildFile; fileRef = C42C33781D24AF2A00B25C6F /* connected.wav */; };
+		C42C337B1D24AF2F00B25C6F /* disconnected.wav in Resources */ = {isa = PBXBuildFile; fileRef = C42C337A1D24AF2F00B25C6F /* disconnected.wav */; };
+		C42C33811D24C79200B25C6F /* joystick_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C42C33801D24C79200B25C6F /* joystick_background.png */; };
+		C42C33841D24C8EF00B25C6F /* joystick_left_point.png in Resources */ = {isa = PBXBuildFile; fileRef = C42C33831D24C8EF00B25C6F /* joystick_left_point.png */; };
+		C42C33881D24F5B800B25C6F /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C33871D24F5B800B25C6F /* Channel.m */; };
+		C42C338C1D24F5E200B25C6F /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C338B1D24F5E200B25C6F /* Settings.m */; };
+		C42C338F1D24F62500B25C6F /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = C42C338D1D24F62500B25C6F /* util.c */; };
+		C42C33921D24FA1F00B25C6F /* AccManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C33911D24FA1F00B25C6F /* AccManager.m */; };
+		C44D04711D39D6DB00FBB733 /* backgound.png in Resources */ = {isa = PBXBuildFile; fileRef = C44D04701D39D6DB00FBB733 /* backgound.png */; };
+		C44D04751D3A2B2F00FBB733 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44D04741D3A2B2F00FBB733 /* SecondViewController.m */; };
+		C44D04781D3A3ACD00FBB733 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44D04771D3A3ACD00FBB733 /* MediaViewController.m */; };
+		C454E66C1D3C875800076D10 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C454E66B1D3C875800076D10 /* SetViewController.m */; };
+		C45627571D37470A009499E8 /* myTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45627561D37470A009499E8 /* myTabBarController.m */; };
+		C45627591D37864B009499E8 /* joystick_right_point.png in Resources */ = {isa = PBXBuildFile; fileRef = C45627581D37864B009499E8 /* joystick_right_point.png */; };
+		C45D10BF1D33304A00B35494 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45D10BE1D33304A00B35494 /* SettingTableViewController.m */; };
+		C46C21161D348A7E00367D81 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46C21151D348A7E00367D81 /* menu@2x.png */; };
+		C46C21191D348A8400367D81 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = C46C21181D348A8400367D81 /* menu.png */; };
+		C46C211B1D348AA700367D81 /* Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46C211A1D348AA700367D81 /* Stars@2x.png */; };
+		C46C211D1D34CC2500367D81 /* IconMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = C46C211C1D34CC2500367D81 /* IconMenu.png */; };
+		C46C21201D34D3FC00367D81 /* SetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46C211F1D34D3FC00367D81 /* SetTableViewController.m */; };
+		C472D1221D2FA3D5002AC680 /* IconLock.png in Resources */ = {isa = PBXBuildFile; fileRef = C472D1211D2FA3D5002AC680 /* IconLock.png */; };
+		C472D1241D2FA3F6002AC680 /* IconUnLock.png in Resources */ = {isa = PBXBuildFile; fileRef = C472D1231D2FA3F6002AC680 /* IconUnLock.png */; };
+		C472D1261D2FA52C002AC680 /* IconTakeOff.png in Resources */ = {isa = PBXBuildFile; fileRef = C472D1251D2FA52C002AC680 /* IconTakeOff.png */; };
+		C472D1281D2FA554002AC680 /* IconLand.png in Resources */ = {isa = PBXBuildFile; fileRef = C472D1271D2FA554002AC680 /* IconLand.png */; };
+		C472D12A1D2FB618002AC680 /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = C472D1291D2FB618002AC680 /* Setting.plist */; };
+		E60537551851D65E003E73EA /* SDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E60537541851D65E003E73EA /* SDK.m */; };
+		E609F4B91872850500BB1A0A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E609F4B81872850500BB1A0A /* MessageUI.framework */; };
+		E609F4BB1872851400BB1A0A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E609F4BA1872851400BB1A0A /* AssetsLibrary.framework */; };
+		E609F4BD1872851C00BB1A0A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E609F4BC1872851C00BB1A0A /* ImageIO.framework */; };
+		E60FA88718F7D9D500C90B77 /* VideoPlaybackProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E60FA88618F7D9D500C90B77 /* VideoPlaybackProgressView.m */; };
+		E6143D1919614C7200D7C639 /* WifiCamFileControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E6143D1819614C7200D7C639 /* WifiCamFileControl.m */; };
+		E6143D1C1961699400D7C639 /* WifiCamControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E6143D1B1961699400D7C639 /* WifiCamControl.m */; };
+		E61903521A022AF300718032 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61903511A022AF300718032 /* CoreMotion.framework */; };
+		E61903541A022B0600718032 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61903531A022B0600718032 /* CoreLocation.framework */; };
+		E61903551A022B1100718032 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E734DF18BB2B7D00A9BF04 /* MobileCoreServices.framework */; };
+		E61903591A022B4900718032 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61903581A022B4900718032 /* CFNetwork.framework */; };
+		E619035B1A022B6D00718032 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E619035A1A022B6D00718032 /* libxml2.dylib */; };
+		E619035D1A022B7C00718032 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E619035C1A022B7C00718032 /* libz.dylib */; };
+		E627C6D41890BBAB001D2000 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E627C6D31890BBAB001D2000 /* Reachability.m */; };
+		E627C6D51890C597001D2000 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64D4DCE188F699E002F09A3 /* SystemConfiguration.framework */; };
+		E63D0C4918EAD2F700FA18BB /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = E63D0C4818EAD2F700FA18BB /* beep.wav */; };
+		E63D0C7618EBF55000FA18BB /* ExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D0C7518EBF55000FA18BB /* ExceptionHandler.m */; };
+		E640043D195918B800768DD2 /* WifiCamControlCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E640043C195918B800768DD2 /* WifiCamControlCenter.m */; };
+		E642AE5E1862BF9F004A1C07 /* SettingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E642AE5D1862BF9F004A1C07 /* SettingDetailViewController.m */; };
+		E6466FE2185807E200E5324E /* MpbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BA7EEB18502B1B00FA101F /* MpbViewController.m */; };
+		E6466FF01858371100E5324E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6466FEF1858371100E5324E /* SettingViewController.m */; };
+		E64D4DD2188F7EE2002F09A3 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64D4DD1188F7EE2002F09A3 /* StartViewController.m */; };
+		E64FC419187CE72200DC155F /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64FC418187CE72200DC155F /* CustomIOS7AlertView.m */; };
+		E650E94B194B03400072D0E8 /* MpbSDKEventListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E650E94A194B03400072D0E8 /* MpbSDKEventListener.cpp */; };
+		E650E94D194B043B0072D0E8 /* PreviewSDKEventListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E650E94C194B043B0072D0E8 /* PreviewSDKEventListener.cpp */; };
+		E6546C8919639D2C00253791 /* WifiCamPlaybackControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E6546C8819639D2C00253791 /* WifiCamPlaybackControl.m */; };
+		E6546C8C1963A6F000253791 /* WifiCamAVData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6546C8B1963A6F000253791 /* WifiCamAVData.m */; };
+		E65BF34518BF04CA00C44371 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65BF34418BF04CA00C44371 /* AudioToolbox.framework */; };
+		E65BF35218BF34E500C44371 /* shutter.wav in Resources */ = {isa = PBXBuildFile; fileRef = E65BF35118BF34E500C44371 /* shutter.wav */; };
+		E6622611187C02C50011DC31 /* SBTableAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E6622610187C02C50011DC31 /* SBTableAlert.m */; };
+		E6630B0518BD8094008F7C34 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6630B0418BD8094008F7C34 /* Main_iPad.storyboard */; };
+		E6630B0C18BD80EF008F7C34 /* MpbPopover.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6630B0B18BD80EF008F7C34 /* MpbPopover.xib */; };
+		E6630B1118BD8121008F7C34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6630B0F18BD8121008F7C34 /* Localizable.strings */; };
+		E66B31F3194E8DFE0094FD81 /* WifiCamCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = E66B31F2194E8DFE0094FD81 /* WifiCamCamera.m */; };
+		E66B31FE194EC5870094FD81 /* WifiCam.m in Sources */ = {isa = PBXBuildFile; fileRef = E66B31FD194EC5870094FD81 /* WifiCam.m */; };
+		E66B3201194ECE9D0094FD81 /* WifiCamPhotoGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = E66B3200194ECE9D0094FD81 /* WifiCamPhotoGallery.m */; };
+		E6701DBE18FB7285004FFE0C /* VideoPlaybackProgressViewBg.m in Sources */ = {isa = PBXBuildFile; fileRef = E6701DBD18FB7285004FFE0C /* VideoPlaybackProgressViewBg.m */; };
+		E67CC22818B49669007FE36A /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = E67CC22718B49669007FE36A /* Connection.m */; };
+		E691C38C1917561D00052272 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E691C38B1917561D00052272 /* OpenAL.framework */; };
+		E691C38F1917567500052272 /* HYOpenALHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E691C38E1917567500052272 /* HYOpenALHelper.m */; };
+		E69403FE19513B23006F86DF /* WifiCamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E69403FD19513B23006F86DF /* WifiCamManager.m */; };
+		E69A60AD1A0AFFFA00F3F0D1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61903561A022B4000718032 /* OpenGLES.framework */; };
+		E6A4A6171908DD7C005F26F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A4A6161908DD7C005F26F3 /* Images.xcassets */; };
+		E6A4F8361869B7CC0095EBBC /* MpbPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A4F8351869B7CC0095EBBC /* MpbPopoverViewController.m */; };
+		E6A727831907938800F52F73 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A727821907938800F52F73 /* AVFoundation.framework */; };
+		E6A7278A1907A3AE00F52F73 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65BF35318BF437A00C44371 /* MediaPlayer.framework */; };
+		E6A727B71907BB6D00F52F73 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A727B61907BB6D00F52F73 /* CoreImage.framework */; };
+		E6A727B91907C78600F52F73 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A727B81907C78600F52F73 /* CoreMedia.framework */; };
+		E6AB2B2E1867FE7D0004CE10 /* MpbCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AB2B2D1867FE7D0004CE10 /* MpbCollectionHeaderView.m */; };
+		E6B01B8E1952D7B000B78409 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B01B8D1952D7B000B78409 /* Tool.m */; };
+		E6B2188619656F7600974A02 /* WifiCamFileTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B2188519656F7600974A02 /* WifiCamFileTable.m */; };
+		E6B2A9A618CDBBAD00F07A20 /* VideoPlaybackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B2A9A518CDBBAD00F07A20 /* VideoPlaybackViewController.m */; };
+		E6BA7EB3185027C400FA101F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BA7EB2185027C400FA101F /* Foundation.framework */; };
+		E6BA7EB5185027C400FA101F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BA7EB4185027C400FA101F /* CoreGraphics.framework */; };
+		E6BA7EB7185027C400FA101F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BA7EB6185027C400FA101F /* UIKit.framework */; };
+		E6BA7EBF185027C400FA101F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BA7EBE185027C400FA101F /* main.m */; };
+		E6BA7EC3185027C400FA101F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BA7EC2185027C400FA101F /* AppDelegate.m */; };
+		E6BA7ECC185027C500FA101F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BA7ECB185027C500FA101F /* ViewController.m */; };
+		E6BA7ED5185027C500FA101F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BA7ED4185027C500FA101F /* XCTest.framework */; };
+		E6BA7ED6185027C500FA101F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BA7EB2185027C400FA101F /* Foundation.framework */; };
+		E6BA7ED7185027C500FA101F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BA7EB6185027C400FA101F /* UIKit.framework */; };
+		E6BA7EE1185027C500FA101F /* WifiCamMobileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BA7EE0185027C500FA101F /* WifiCamMobileAppTests.m */; };
+		E6BA7EF918505E1C00FA101F /* MpbCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BA7EF818505E1C00FA101F /* MpbCollectionViewCell.m */; };
+		E6BB607F19AED1910038AB0F /* PreviewZoomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB607E19AED1910038AB0F /* PreviewZoomSlider.m */; };
+		E6BCD37D188F9FED00ACB899 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6BCD37C188F9FED00ACB899 /* Settings.bundle */; };
+		E6C3B30619D7E87800CC2B17 /* libMWPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C3B30519D7E86A00CC2B17 /* libMWPhotoBrowser.a */; };
+		E6C7A08118602E6400C3C2C3 /* WifiCamAlertTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C7A08018602E6400C3C2C3 /* WifiCamAlertTable.m */; };
+		E6DC7A461A1060B3008C400B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DC7A451A1060B3008C400B /* Main_iPhone.storyboard */; };
+		E6DC7A501A10B200008C400B /* ChangeSSIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC7A4F1A10B200008C400B /* ChangeSSIDViewController.m */; };
+		E6E59BB61957FF7700C7D877 /* WifiCamCommonControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E59BB51957FF7700C7D877 /* WifiCamCommonControl.m */; };
+		E6E59BB91958006D00C7D877 /* WifiCamPropertyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E59BB81958006D00C7D877 /* WifiCamPropertyControl.m */; };
+		E6E59BBC195800E300C7D877 /* WifiCamActionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E59BBB195800E300C7D877 /* WifiCamActionControl.m */; };
+		E6E734DB18BB125900A9BF04 /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6E734DA18BB125900A9BF04 /* MWPhotoBrowser.bundle */; };
+		E6E734E118BB408E00A9BF04 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E734DD18BB2B5100A9BF04 /* Social.framework */; };
+		E6F9C84B1962A5A600DB5F98 /* WifiCamCollectionViewSelectedCellTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C84A1962A5A600DB5F98 /* WifiCamCollectionViewSelectedCellTable.m */; };
+		E6FCC2FC1959732F006159D0 /* WifiCamStaticData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FCC2FB1959732F006159D0 /* WifiCamStaticData.m */; };
+		E6FF9735186D767F00D8511B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF9734186D767F00D8511B /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6BA7ED8185027C500FA101F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6BA7EA7185027C400FA101F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6BA7EAE185027C400FA101F;
+			remoteInfo = WifiCamMobileApp;
+		};
+		E6C3B30419D7E86A00CC2B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6C3B30019D7E86A00CC2B17 /* MWPhotoBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C6F96C414AF704100F8389A;
+			remoteInfo = MWPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A036DB21AAD755200DDF5F4 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3A51D16B1B7B3AB5005EAE6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		3A51D16D1B7B3AB5005EAE6F /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		3A51D16E1B7B3AB5005EAE6F /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		3A51D16F1B7B3AB5005EAE6F /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		3A51D1701B7B3AB5005EAE6F /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		3A51D1711B7B3AB5005EAE6F /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		3A51D1721B7B3AB5005EAE6F /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		3A51D1731B7B3AB5005EAE6F /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		3A51D1741B7B3AB5005EAE6F /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		3A51D1751B7B3AB5005EAE6F /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		3A51D1761B7B3AB5005EAE6F /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		3A51D1771B7B3AB5005EAE6F /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		3A51D1781B7B3AB5005EAE6F /* libUMSocial_Sdk_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.2.3.a; sourceTree = "<group>"; };
+		3A51D1791B7B3AB5005EAE6F /* libUMSocial_Sdk_Comment_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_Comment_4.2.3.a; sourceTree = "<group>"; };
+		3A51D17B1B7B3AB5005EAE6F /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		3A51D17C1B7B3AB5005EAE6F /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		3A51D17D1B7B3AB5005EAE6F /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		3A51D17E1B7B3AB5005EAE6F /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		3A51D17F1B7B3AB5005EAE6F /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		3A51D1801B7B3AB5005EAE6F /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		3A51D1811B7B3AB5005EAE6F /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		3A51D1821B7B3AB5005EAE6F /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		3A51D1831B7B3AB5005EAE6F /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		3A51D1841B7B3AB5005EAE6F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		3A51D1871B7B3AB5005EAE6F /* libSocialFacebook.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialFacebook.a; sourceTree = "<group>"; };
+		3A51D1881B7B3AB5005EAE6F /* UMSocialFacebookHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialFacebookHandler.h; sourceTree = "<group>"; };
+		3A51D18A1B7B3AB5005EAE6F /* libSocialInstagram.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialInstagram.a; sourceTree = "<group>"; };
+		3A51D18B1B7B3AB5005EAE6F /* UMSocialInstagramHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialInstagramHandler.h; sourceTree = "<group>"; };
+		3A51D18D1B7B3AB5005EAE6F /* libSocialLaiWang.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialLaiWang.a; sourceTree = "<group>"; };
+		3A51D18E1B7B3AB5005EAE6F /* UMSocialLaiwangHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialLaiwangHandler.h; sourceTree = "<group>"; };
+		3A51D1901B7B3AB5005EAE6F /* libSocialLine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialLine.a; sourceTree = "<group>"; };
+		3A51D1911B7B3AB5005EAE6F /* UMSocialLineHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialLineHandler.h; sourceTree = "<group>"; };
+		3A51D1931B7B3AB5005EAE6F /* libSocialRenren.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialRenren.a; sourceTree = "<group>"; };
+		3A51D1941B7B3AB5005EAE6F /* RennSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RennSDK.framework; sourceTree = "<group>"; };
+		3A51D1951B7B3AB5005EAE6F /* UMSocialRenrenHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialRenrenHandler.h; sourceTree = "<group>"; };
+		3A51D1971B7B3AB5005EAE6F /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		3A51D1981B7B3AB5005EAE6F /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		3A51D19A1B7B3AB5005EAE6F /* libSocialSinaSSO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSinaSSO.a; sourceTree = "<group>"; };
+		3A51D19B1B7B3AB5005EAE6F /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		3A51D19C1B7B3AB5005EAE6F /* UMSocialSinaSSOHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaSSOHandler.h; sourceTree = "<group>"; };
+		3A51D19D1B7B3AB5005EAE6F /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		3A51D19E1B7B3AB5005EAE6F /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		3A51D19F1B7B3AB5005EAE6F /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		3A51D1A01B7B3AB5005EAE6F /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		3A51D1A11B7B3AB5005EAE6F /* WBSDKBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
+		3A51D1A21B7B3AB5005EAE6F /* WBSDKCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
+		3A51D1A31B7B3AB5005EAE6F /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		3A51D1A41B7B3AB5005EAE6F /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		3A51D1A51B7B3AB5005EAE6F /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		3A51D1A61B7B3AB5005EAE6F /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
+		3A51D1A81B7B3AB5005EAE6F /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		3A51D1A91B7B3AB5005EAE6F /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		3A51D1AA1B7B3AB5005EAE6F /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		3A51D1AB1B7B3AB5005EAE6F /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		3A51D1AD1B7B3AB5005EAE6F /* libSocialTumblr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialTumblr.a; sourceTree = "<group>"; };
+		3A51D1AE1B7B3AB5005EAE6F /* UMSocialTumblrHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialTumblrHandler.h; sourceTree = "<group>"; };
+		3A51D1B01B7B3AB5005EAE6F /* libSocialTwitter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialTwitter.a; sourceTree = "<group>"; };
+		3A51D1B11B7B3AB5005EAE6F /* UMSocialTwitterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialTwitterHandler.h; sourceTree = "<group>"; };
+		3A51D1B31B7B3AB5005EAE6F /* ios-social-sdk-shake.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-shake.html"; sourceTree = "<group>"; };
+		3A51D1B41B7B3AB5005EAE6F /* libUMSocial_Sdk_ScreenShot_1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_ScreenShot_1.0.a; sourceTree = "<group>"; };
+		3A51D1B51B7B3AB5005EAE6F /* UMSocialScreenShoter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialScreenShoter.h; sourceTree = "<group>"; };
+		3A51D1B71B7B3AB5005EAE6F /* ios-social-sdk-shake.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ios-social-sdk-shake.html"; sourceTree = "<group>"; };
+		3A51D1B81B7B3AB5005EAE6F /* libUMSocial_Sdk_Shake_1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_Shake_1.0.a; sourceTree = "<group>"; };
+		3A51D1B91B7B3AB5005EAE6F /* UMSocialShakeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialShakeService.h; sourceTree = "<group>"; };
+		3A51D1BB1B7B3AB5005EAE6F /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
+		3A51D1BC1B7B3AB5005EAE6F /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		3A51D1BD1B7B3AB5005EAE6F /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		3A51D1BE1B7B3AB5005EAE6F /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		3A51D1BF1B7B3AB5005EAE6F /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		3A51D1C11B7B3AB5005EAE6F /* libSocialWhatsapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWhatsapp.a; sourceTree = "<group>"; };
+		3A51D1C21B7B3AB5005EAE6F /* UMSocialWhatsappHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWhatsappHandler.h; sourceTree = "<group>"; };
+		3A51D1C41B7B3AB5005EAE6F /* libSocialYiXin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialYiXin.a; sourceTree = "<group>"; };
+		3A51D1C51B7B3AB5005EAE6F /* libYixinSDK_V2.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYixinSDK_V2.2.a; sourceTree = "<group>"; };
+		3A51D1C61B7B3AB5005EAE6F /* UMSocialYiXinHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialYiXinHandler.h; sourceTree = "<group>"; };
+		3A51D1C71B7B3AB5005EAE6F /* YXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXApi.h; sourceTree = "<group>"; };
+		3A51D1C81B7B3AB5005EAE6F /* YXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXApiObject.h; sourceTree = "<group>"; };
+		3A51D1ED1B7B3B1F005EAE6F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3A51D1EF1B7B3B26005EAE6F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3A51D1F11B7B3C85005EAE6F /* UIActivityDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityDownload.h; sourceTree = "<group>"; };
+		3A51D1F21B7B3C85005EAE6F /* UIActivityDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityDownload.m; sourceTree = "<group>"; };
+		3A51D1F31B7B3C85005EAE6F /* UIActivityEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityEmail.h; sourceTree = "<group>"; };
+		3A51D1F41B7B3C85005EAE6F /* UIActivityEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityEmail.m; sourceTree = "<group>"; };
+		3A51D1F51B7B3C85005EAE6F /* UIActivityFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityFacebook.h; sourceTree = "<group>"; };
+		3A51D1F61B7B3C85005EAE6F /* UIActivityFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityFacebook.m; sourceTree = "<group>"; };
+		3A51D1F71B7B3C85005EAE6F /* UIActivityItemImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityItemImage.h; sourceTree = "<group>"; };
+		3A51D1F81B7B3C85005EAE6F /* UIActivityItemImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityItemImage.m; sourceTree = "<group>"; };
+		3A51D1F91B7B3C85005EAE6F /* UIActivityItemVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityItemVideo.h; sourceTree = "<group>"; };
+		3A51D1FA1B7B3C85005EAE6F /* UIActivityItemVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityItemVideo.m; sourceTree = "<group>"; };
+		3A51D1FB1B7B3C85005EAE6F /* UIActivityQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityQQ.h; sourceTree = "<group>"; };
+		3A51D1FC1B7B3C85005EAE6F /* UIActivityQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityQQ.m; sourceTree = "<group>"; };
+		3A51D1FD1B7B3C85005EAE6F /* UIActivityTencentWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityTencentWeibo.h; sourceTree = "<group>"; };
+		3A51D1FE1B7B3C85005EAE6F /* UIActivityTencentWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityTencentWeibo.m; sourceTree = "<group>"; };
+		3A51D1FF1B7B3C85005EAE6F /* UIActivityTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityTwitter.h; sourceTree = "<group>"; };
+		3A51D2001B7B3C85005EAE6F /* UIActivityTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityTwitter.m; sourceTree = "<group>"; };
+		3A51D2011B7B3C85005EAE6F /* UIActivityWechatFavorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityWechatFavorite.h; sourceTree = "<group>"; };
+		3A51D2021B7B3C85005EAE6F /* UIActivityWechatFavorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityWechatFavorite.m; sourceTree = "<group>"; };
+		3A51D2031B7B3C85005EAE6F /* UIActivityWechatSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityWechatSession.h; sourceTree = "<group>"; };
+		3A51D2041B7B3C85005EAE6F /* UIActivityWechatSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityWechatSession.m; sourceTree = "<group>"; };
+		3A51D2051B7B3C85005EAE6F /* UIActivityWechatTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityWechatTimeline.h; sourceTree = "<group>"; };
+		3A51D2061B7B3C85005EAE6F /* UIActivityWechatTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityWechatTimeline.m; sourceTree = "<group>"; };
+		3A51D2071B7B3C85005EAE6F /* UIActivityWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityWeibo.h; sourceTree = "<group>"; };
+		3A51D2081B7B3C85005EAE6F /* UIActivityWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityWeibo.m; sourceTree = "<group>"; };
+		3A51D2151B7B3CA7005EAE6F /* ActivityWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityWrapper.h; sourceTree = "<group>"; };
+		3A51D2161B7B3CA7005EAE6F /* ActivityWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityWrapper.m; sourceTree = "<group>"; };
+		3A51D2A91B7B4123005EAE6F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		3A51D2AC1B7B41B0005EAE6F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A51D2AE1B7B41CA005EAE6F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		3A51D2B11B7B4234005EAE6F /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		3A51D2B21B7B4234005EAE6F /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		3A51D2B31B7B4234005EAE6F /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		3A51D2B41B7B4234005EAE6F /* UMSocialQQHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		3A51D2B51B7B426C005EAE6F /* TencentOpenAPI */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = TencentOpenAPI; path = UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenAPI.framework/TencentOpenAPI; sourceTree = "<group>"; };
+		3A6EDE141BFDAAD400F9D8F9 /* Reachability+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reachability+Ext.h"; sourceTree = "<group>"; };
+		3A6EDE151BFDAAD400F9D8F9 /* Reachability+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reachability+Ext.m"; sourceTree = "<group>"; };
+		3AD493261C4F66ED001BE4EE /* CameraMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraMode.h; sourceTree = "<group>"; };
+		3AD493271C4F66ED001BE4EE /* ICatchAudioFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchAudioFormat.h; sourceTree = "<group>"; };
+		3AD493281C4F66ED001BE4EE /* ICatchBurstNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchBurstNumber.h; sourceTree = "<group>"; };
+		3AD493291C4F66ED001BE4EE /* ICatchCameraProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchCameraProperty.h; sourceTree = "<group>"; };
+		3AD4932A1C4F66ED001BE4EE /* ICatchCaptureDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchCaptureDelay.h; sourceTree = "<group>"; };
+		3AD4932B1C4F66ED001BE4EE /* IcatchCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcatchCodec.h; sourceTree = "<group>"; };
+		3AD4932C1C4F66ED001BE4EE /* ICatchDateStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchDateStamp.h; sourceTree = "<group>"; };
+		3AD4932D1C4F66ED001BE4EE /* ICatchError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchError.h; sourceTree = "<group>"; };
+		3AD4932E1C4F66ED001BE4EE /* ICatchEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchEvent.h; sourceTree = "<group>"; };
+		3AD4932F1C4F66ED001BE4EE /* ICatchEventID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchEventID.h; sourceTree = "<group>"; };
+		3AD493301C4F66ED001BE4EE /* ICatchFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchFile.h; sourceTree = "<group>"; };
+		3AD493311C4F66ED001BE4EE /* ICatchFileType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchFileType.h; sourceTree = "<group>"; };
+		3AD493321C4F66ED001BE4EE /* ICatchFrameBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchFrameBuffer.h; sourceTree = "<group>"; };
+		3AD493331C4F66ED001BE4EE /* ICatchFrameSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchFrameSize.h; sourceTree = "<group>"; };
+		3AD493341C4F66ED001BE4EE /* ICatchH264StreamParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchH264StreamParam.h; sourceTree = "<group>"; };
+		3AD493351C4F66ED001BE4EE /* ICatchLightFrequency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchLightFrequency.h; sourceTree = "<group>"; };
+		3AD493361C4F66ED001BE4EE /* ICatchLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchLogLevel.h; sourceTree = "<group>"; };
+		3AD493371C4F66ED001BE4EE /* ICatchMJPGStreamParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchMJPGStreamParam.h; sourceTree = "<group>"; };
+		3AD493381C4F66ED001BE4EE /* ICatchMJPGStreamParamWithPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchMJPGStreamParamWithPort.h; sourceTree = "<group>"; };
+		3AD493391C4F66ED001BE4EE /* ICatchMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchMode.h; sourceTree = "<group>"; };
+		3AD4933A1C4F66ED001BE4EE /* ICatchPreviewMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchPreviewMode.h; sourceTree = "<group>"; };
+		3AD4933B1C4F66ED001BE4EE /* ICatchPropDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchPropDataType.h; sourceTree = "<group>"; };
+		3AD4933C1C4F66ED001BE4EE /* ICatchPropertyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchPropertyUtil.h; sourceTree = "<group>"; };
+		3AD4933D1C4F66ED001BE4EE /* ICatchPropFormFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchPropFormFlag.h; sourceTree = "<group>"; };
+		3AD4933E1C4F66ED001BE4EE /* ICatchStreamParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchStreamParam.h; sourceTree = "<group>"; };
+		3AD4933F1C4F66ED001BE4EE /* ICatchTUTKMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchTUTKMode.h; sourceTree = "<group>"; };
+		3AD493401C4F66ED001BE4EE /* ICatchTUTKType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchTUTKType.h; sourceTree = "<group>"; };
+		3AD493411C4F66ED001BE4EE /* ICatchVideoFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchVideoFormat.h; sourceTree = "<group>"; };
+		3AD493421C4F66ED001BE4EE /* ICatchVideoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchVideoSize.h; sourceTree = "<group>"; };
+		3AD493431C4F66ED001BE4EE /* ICatchWhiteBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWhiteBalance.h; sourceTree = "<group>"; };
+		3AD493441C4F66ED001BE4EE /* ICatchWificam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificam.h; sourceTree = "<group>"; };
+		3AD493451C4F66ED001BE4EE /* ICatchWificamAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamAPI.h; sourceTree = "<group>"; };
+		3AD493461C4F66ED001BE4EE /* ICatchWificamAssist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamAssist.h; sourceTree = "<group>"; };
+		3AD493471C4F66ED001BE4EE /* ICatchWificamConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamConfig.h; sourceTree = "<group>"; };
+		3AD493481C4F66ED001BE4EE /* ICatchWificamControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamControl.h; sourceTree = "<group>"; };
+		3AD493491C4F66ED001BE4EE /* ICatchWificamInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamInfo.h; sourceTree = "<group>"; };
+		3AD4934A1C4F66ED001BE4EE /* ICatchWificamListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamListener.h; sourceTree = "<group>"; };
+		3AD4934B1C4F66ED001BE4EE /* ICatchWificamLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamLog.h; sourceTree = "<group>"; };
+		3AD4934C1C4F66ED001BE4EE /* ICatchWificamMediaServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamMediaServer.h; sourceTree = "<group>"; };
+		3AD4934D1C4F66ED001BE4EE /* ICatchWificamPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamPlayback.h; sourceTree = "<group>"; };
+		3AD4934E1C4F66ED001BE4EE /* ICatchWificamPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamPreview.h; sourceTree = "<group>"; };
+		3AD4934F1C4F66ED001BE4EE /* ICatchWificamProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamProperty.h; sourceTree = "<group>"; };
+		3AD493501C4F66ED001BE4EE /* ICatchWificamSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamSession.h; sourceTree = "<group>"; };
+		3AD493511C4F66ED001BE4EE /* ICatchWificamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamState.h; sourceTree = "<group>"; };
+		3AD493521C4F66ED001BE4EE /* ICatchWificamStreamPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamStreamPlayback.h; sourceTree = "<group>"; };
+		3AD493531C4F66ED001BE4EE /* ICatchWificamUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamUtil.h; sourceTree = "<group>"; };
+		3AD493541C4F66ED001BE4EE /* ICatchWificamVideoPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICatchWificamVideoPlayback.h; sourceTree = "<group>"; };
+		3AD493551C4F66ED001BE4EE /* libicatch_wificam_sdk_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicatch_wificam_sdk_arm64.a; sourceTree = "<group>"; };
+		3AD493561C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicatch_wificam_sdk_armv7.a; sourceTree = "<group>"; };
+		3AD493571C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7s.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicatch_wificam_sdk_armv7s.a; sourceTree = "<group>"; };
+		3AF2AEEB1B40E90600C1351A /* WifiCamObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamObserver.m; sourceTree = "<group>"; };
+		3AF2AEEE1B40E90C00C1351A /* WifiCamObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiCamObserver.h; sourceTree = "<group>"; };
+		3AF2AEEF1B40EB9100C1351A /* WifiCamSDKEventListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WifiCamSDKEventListener.cpp; sourceTree = "<group>"; };
+		3AF2AEF01B40EB9100C1351A /* WifiCamSDKEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamSDKEventListener.h; sourceTree = "<group>"; };
+		C407C4801D2278AC00C457AC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C40AF8951D2DEA8D0054C4F9 /* MMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUD.h; sourceTree = "<group>"; };
+		C40AF8961D2DEA8D0054C4F9 /* MMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUD.m; sourceTree = "<group>"; };
+		C40AF8981D2DEB5F0054C4F9 /* MMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHud.h; sourceTree = "<group>"; };
+		C40AF8991D2DEB5F0054C4F9 /* MMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHud.m; sourceTree = "<group>"; };
+		C40AF89B1D2DEC5F0054C4F9 /* MMProgressHUDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDCommon.h; sourceTree = "<group>"; };
+		C40AF89C1D2DEC7C0054C4F9 /* MMProgressHUD+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressHUD+Animations.h"; sourceTree = "<group>"; };
+		C40AF89D1D2DEC7C0054C4F9 /* MMProgressHUD+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Animations.m"; sourceTree = "<group>"; };
+		C40AF89F1D2DEC8F0054C4F9 /* MMProgressHUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDWindow.h; sourceTree = "<group>"; };
+		C40AF8A01D2DEC8F0054C4F9 /* MMProgressHUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDWindow.m; sourceTree = "<group>"; };
+		C40AF8A21D2DECAE0054C4F9 /* MMProgressHUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDViewController.h; sourceTree = "<group>"; };
+		C40AF8A31D2DECAE0054C4F9 /* MMProgressHUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDViewController.m; sourceTree = "<group>"; };
+		C40AF8A51D2DECC70054C4F9 /* MMProgressHUDOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDOverlayView.h; sourceTree = "<group>"; };
+		C40AF8A61D2DECC70054C4F9 /* MMProgressHUDOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDOverlayView.m; sourceTree = "<group>"; };
+		C40AF8A81D2DECD40054C4F9 /* MMVectorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorImage.h; sourceTree = "<group>"; };
+		C40AF8A91D2DECD40054C4F9 /* MMVectorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorImage.m; sourceTree = "<group>"; };
+		C40AF8AB1D2DECE40054C4F9 /* MMLinearProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLinearProgressView.h; sourceTree = "<group>"; };
+		C40AF8AC1D2DECE40054C4F9 /* MMLinearProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLinearProgressView.m; sourceTree = "<group>"; };
+		C40AF8AF1D2DED290054C4F9 /* MMProgressView-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressView-Protocol.h"; sourceTree = "<group>"; };
+		C40AF8B01D2DED430054C4F9 /* MMRadialProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRadialProgressView.h; sourceTree = "<group>"; };
+		C40AF8B11D2DED430054C4F9 /* MMRadialProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRadialProgressView.m; sourceTree = "<group>"; };
+		C40AF8B61D2E3DED0054C4F9 /* armed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = armed.wav; sourceTree = "<group>"; };
+		C40AF8B81D2E3DF30054C4F9 /* disarmed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = disarmed.wav; sourceTree = "<group>"; };
+		C40AF8BD1D2E47480054C4F9 /* ControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
+		C40AF8BE1D2E47480054C4F9 /* ControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlViewController.m; sourceTree = "<group>"; };
+		C42C336B1D24AA3D00B25C6F /* Transmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transmitter.h; sourceTree = "<group>"; };
+		C42C336C1D24AA3D00B25C6F /* Transmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transmitter.m; sourceTree = "<group>"; };
+		C42C336D1D24AA3D00B25C6F /* BleSerialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleSerialManager.h; sourceTree = "<group>"; };
+		C42C336E1D24AA3D00B25C6F /* BleSerialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleSerialManager.m; sourceTree = "<group>"; };
+		C42C336F1D24AA3D00B25C6F /* OSDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSDCommon.h; sourceTree = "<group>"; };
+		C42C33701D24AA3D00B25C6F /* OSDCommon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OSDCommon.mm; sourceTree = "<group>"; };
+		C42C33711D24AA3D00B25C6F /* OSDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSDData.h; sourceTree = "<group>"; };
+		C42C33721D24AA3D00B25C6F /* OSDData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OSDData.mm; sourceTree = "<group>"; };
+		C42C33781D24AF2A00B25C6F /* connected.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = connected.wav; sourceTree = "<group>"; };
+		C42C337A1D24AF2F00B25C6F /* disconnected.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = disconnected.wav; sourceTree = "<group>"; };
+		C42C33801D24C79200B25C6F /* joystick_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick_background.png; sourceTree = "<group>"; };
+		C42C33831D24C8EF00B25C6F /* joystick_left_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick_left_point.png; sourceTree = "<group>"; };
+		C42C33861D24F5B800B25C6F /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		C42C33871D24F5B800B25C6F /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		C42C338A1D24F5E200B25C6F /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		C42C338B1D24F5E200B25C6F /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		C42C338D1D24F62500B25C6F /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		C42C338E1D24F62500B25C6F /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		C42C33901D24FA1F00B25C6F /* AccManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccManager.h; sourceTree = "<group>"; };
+		C42C33911D24FA1F00B25C6F /* AccManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccManager.m; sourceTree = "<group>"; };
+		C44D04701D39D6DB00FBB733 /* backgound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgound.png; sourceTree = "<group>"; };
+		C44D04731D3A2B2F00FBB733 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C44D04741D3A2B2F00FBB733 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C44D04761D3A3ACD00FBB733 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		C44D04771D3A3ACD00FBB733 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
+		C454E66A1D3C875800076D10 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		C454E66B1D3C875800076D10 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		C45627551D37470A009499E8 /* myTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTabBarController.h; sourceTree = "<group>"; };
+		C45627561D37470A009499E8 /* myTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTabBarController.m; sourceTree = "<group>"; };
+		C45627581D37864B009499E8 /* joystick_right_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick_right_point.png; sourceTree = "<group>"; };
+		C45D10BD1D33304A00B35494 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		C45D10BE1D33304A00B35494 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		C46C21151D348A7E00367D81 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		C46C21181D348A8400367D81 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		C46C211A1D348AA700367D81 /* Stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stars@2x.png"; sourceTree = "<group>"; };
+		C46C211C1D34CC2500367D81 /* IconMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconMenu.png; sourceTree = "<group>"; };
+		C46C211E1D34D3FC00367D81 /* SetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTableViewController.h; sourceTree = "<group>"; };
+		C46C211F1D34D3FC00367D81 /* SetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTableViewController.m; sourceTree = "<group>"; };
+		C472D1211D2FA3D5002AC680 /* IconLock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconLock.png; sourceTree = "<group>"; };
+		C472D1231D2FA3F6002AC680 /* IconUnLock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconUnLock.png; sourceTree = "<group>"; };
+		C472D1251D2FA52C002AC680 /* IconTakeOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconTakeOff.png; sourceTree = "<group>"; };
+		C472D1271D2FA554002AC680 /* IconLand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconLand.png; sourceTree = "<group>"; };
+		C472D1291D2FB618002AC680 /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Setting.plist; sourceTree = "<group>"; };
+		E60537531851D65E003E73EA /* SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK.h; sourceTree = "<group>"; };
+		E60537541851D65E003E73EA /* SDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDK.m; sourceTree = "<group>"; };
+		E609F4B81872850500BB1A0A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E609F4BA1872851400BB1A0A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E609F4BC1872851C00BB1A0A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E60FA88518F7D9D500C90B77 /* VideoPlaybackProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlaybackProgressView.h; sourceTree = "<group>"; };
+		E60FA88618F7D9D500C90B77 /* VideoPlaybackProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlaybackProgressView.m; sourceTree = "<group>"; };
+		E6143D1719614C7200D7C639 /* WifiCamFileControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamFileControl.h; sourceTree = "<group>"; };
+		E6143D1819614C7200D7C639 /* WifiCamFileControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamFileControl.m; sourceTree = "<group>"; };
+		E6143D1A1961699400D7C639 /* WifiCamControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamControl.h; sourceTree = "<group>"; };
+		E6143D1B1961699400D7C639 /* WifiCamControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamControl.m; sourceTree = "<group>"; };
+		E61903511A022AF300718032 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E61903531A022B0600718032 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E61903561A022B4000718032 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E61903581A022B4900718032 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E619035A1A022B6D00718032 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E619035C1A022B7C00718032 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E61F28E418C0804A00521DD9 /* MpbViewControllerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpbViewControllerPrivate.h; sourceTree = "<group>"; };
+		E61F28E518C0884900521DD9 /* ViewControllerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPrivate.h; sourceTree = "<group>"; };
+		E627C6D21890BBAB001D2000 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E627C6D31890BBAB001D2000 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E63D0C4818EAD2F700FA18BB /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		E63D0C7418EBF54F00FA18BB /* ExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionHandler.h; sourceTree = "<group>"; };
+		E63D0C7518EBF55000FA18BB /* ExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionHandler.m; sourceTree = "<group>"; };
+		E640043B195918B800768DD2 /* WifiCamControlCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamControlCenter.h; sourceTree = "<group>"; };
+		E640043C195918B800768DD2 /* WifiCamControlCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamControlCenter.m; sourceTree = "<group>"; };
+		E642AE5C1862BF9F004A1C07 /* SettingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingDetailViewController.h; sourceTree = "<group>"; };
+		E642AE5D1862BF9F004A1C07 /* SettingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingDetailViewController.m; sourceTree = "<group>"; };
+		E6466FEE1858371100E5324E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		E6466FEF1858371100E5324E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		E64D4DCE188F699E002F09A3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E64D4DD0188F7EE1002F09A3 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		E64D4DD1188F7EE2002F09A3 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		E64FC417187CE72200DC155F /* CustomIOS7AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOS7AlertView.h; sourceTree = "<group>"; };
+		E64FC418187CE72200DC155F /* CustomIOS7AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOS7AlertView.m; sourceTree = "<group>"; };
+		E650E943194ACBCF0072D0E8 /* PreviewSDKEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewSDKEventListener.h; sourceTree = "<group>"; };
+		E650E945194AFF820072D0E8 /* MpbSDKEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpbSDKEventListener.h; sourceTree = "<group>"; };
+		E650E94A194B03400072D0E8 /* MpbSDKEventListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MpbSDKEventListener.cpp; sourceTree = "<group>"; };
+		E650E94C194B043B0072D0E8 /* PreviewSDKEventListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PreviewSDKEventListener.cpp; sourceTree = "<group>"; };
+		E6546C8719639D2C00253791 /* WifiCamPlaybackControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamPlaybackControl.h; sourceTree = "<group>"; };
+		E6546C8819639D2C00253791 /* WifiCamPlaybackControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamPlaybackControl.m; sourceTree = "<group>"; };
+		E6546C8A1963A6F000253791 /* WifiCamAVData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamAVData.h; sourceTree = "<group>"; };
+		E6546C8B1963A6F000253791 /* WifiCamAVData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamAVData.m; sourceTree = "<group>"; };
+		E65BF34418BF04CA00C44371 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E65BF34B18BF081300C44371 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		E65BF35118BF34E500C44371 /* shutter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shutter.wav; sourceTree = "<group>"; };
+		E65BF35318BF437A00C44371 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E662260F187C02C50011DC31 /* SBTableAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableAlert.h; sourceTree = "<group>"; };
+		E6622610187C02C50011DC31 /* SBTableAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableAlert.m; sourceTree = "<group>"; };
+		E6630B0418BD8094008F7C34 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		E6630B0B18BD80EF008F7C34 /* MpbPopover.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MpbPopover.xib; sourceTree = "<group>"; };
+		E6630B1018BD8121008F7C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6630B1218BD8128008F7C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6630B1318BD812E008F7C34 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E6630B1418BD8135008F7C34 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E66B31F1194E8DFE0094FD81 /* WifiCamCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamCamera.h; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
+		E66B31F2194E8DFE0094FD81 /* WifiCamCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamCamera.m; sourceTree = "<group>"; };
+		E66B31FC194EC5870094FD81 /* WifiCam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCam.h; sourceTree = "<group>"; };
+		E66B31FD194EC5870094FD81 /* WifiCam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCam.m; sourceTree = "<group>"; };
+		E66B31FF194ECE9D0094FD81 /* WifiCamPhotoGallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamPhotoGallery.h; sourceTree = "<group>"; };
+		E66B3200194ECE9D0094FD81 /* WifiCamPhotoGallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamPhotoGallery.m; sourceTree = "<group>"; };
+		E6701DBC18FB7285004FFE0C /* VideoPlaybackProgressViewBg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlaybackProgressViewBg.h; sourceTree = "<group>"; };
+		E6701DBD18FB7285004FFE0C /* VideoPlaybackProgressViewBg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlaybackProgressViewBg.m; sourceTree = "<group>"; };
+		E673EE04194FE51900E07455 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E673EE05194FE52200E07455 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E673EE06194FE52900E07455 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E673EE07194FE53800E07455 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E673EE08194FE55100E07455 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E67CC22618B49669007FE36A /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		E67CC22718B49669007FE36A /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		E691C38919171B8500052272 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		E691C38B1917561D00052272 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		E691C38D1917567500052272 /* HYOpenALHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYOpenALHelper.h; sourceTree = "<group>"; };
+		E691C38E1917567500052272 /* HYOpenALHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYOpenALHelper.m; sourceTree = "<group>"; };
+		E69403FC19513B23006F86DF /* WifiCamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamManager.h; sourceTree = "<group>"; };
+		E69403FD19513B23006F86DF /* WifiCamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamManager.m; sourceTree = "<group>"; };
+		E6A4A6161908DD7C005F26F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6A4F8341869B7CC0095EBBC /* MpbPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpbPopoverViewController.h; sourceTree = "<group>"; };
+		E6A4F8351869B7CC0095EBBC /* MpbPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MpbPopoverViewController.m; sourceTree = "<group>"; };
+		E6A727821907938800F52F73 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E6A727841907939A00F52F73 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E6A72786190793A100F52F73 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		E6A727B61907BB6D00F52F73 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		E6A727B81907C78600F52F73 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E6AB2B2C1867FE7D0004CE10 /* MpbCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpbCollectionHeaderView.h; sourceTree = "<group>"; };
+		E6AB2B2D1867FE7D0004CE10 /* MpbCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MpbCollectionHeaderView.m; sourceTree = "<group>"; };
+		E6B01B8C1952D7B000B78409 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		E6B01B8D1952D7B000B78409 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		E6B2188419656F7600974A02 /* WifiCamFileTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamFileTable.h; sourceTree = "<group>"; };
+		E6B2188519656F7600974A02 /* WifiCamFileTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamFileTable.m; sourceTree = "<group>"; };
+		E6B2A9A418CDBBAD00F07A20 /* VideoPlaybackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlaybackViewController.h; sourceTree = "<group>"; };
+		E6B2A9A518CDBBAD00F07A20 /* VideoPlaybackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlaybackViewController.m; sourceTree = "<group>"; };
+		E6BA7EAF185027C400FA101F /* WCMapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCMapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BA7EB2185027C400FA101F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6BA7EB4185027C400FA101F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6BA7EB6185027C400FA101F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6BA7EBA185027C400FA101F /* WCMapp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WCMapp2-Info.plist"; sourceTree = "<group>"; };
+		E6BA7EBE185027C400FA101F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6BA7EC0185027C400FA101F /* WCMapp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCMapp2-Prefix.pch"; sourceTree = "<group>"; };
+		E6BA7EC1185027C400FA101F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6BA7EC2185027C400FA101F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6BA7ECA185027C500FA101F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6BA7ECB185027C500FA101F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6BA7ED3185027C500FA101F /* WCMapp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCMapp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BA7ED4185027C500FA101F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E6BA7EDC185027C500FA101F /* WifiCamMobileAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiCamMobileAppTests-Info.plist"; sourceTree = "<group>"; };
+		E6BA7EE0185027C500FA101F /* WifiCamMobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiCamMobileAppTests.m; sourceTree = "<group>"; };
+		E6BA7EEA18502B1B00FA101F /* MpbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpbViewController.h; sourceTree = "<group>"; };
+		E6BA7EEB18502B1B00FA101F /* MpbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MpbViewController.m; sourceTree = "<group>"; };
+		E6BA7EF718505E1C00FA101F /* MpbCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpbCollectionViewCell.h; sourceTree = "<group>"; };
+		E6BA7EF818505E1C00FA101F /* MpbCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MpbCollectionViewCell.m; sourceTree = "<group>"; };
+		E6BB607D19AED1910038AB0F /* PreviewZoomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewZoomSlider.h; sourceTree = "<group>"; };
+		E6BB607E19AED1910038AB0F /* PreviewZoomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewZoomSlider.m; sourceTree = "<group>"; };
+		E6BCD37C188F9FED00ACB899 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E6C3B30019D7E86A00CC2B17 /* MWPhotoBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MWPhotoBrowser.xcodeproj; path = WifiCamMobileApp/MWPhotoBrowser/MWPhotoBrowser.xcodeproj; sourceTree = "<group>"; };
+		E6C7A07F18602E6400C3C2C3 /* WifiCamAlertTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamAlertTable.h; sourceTree = "<group>"; };
+		E6C7A08018602E6400C3C2C3 /* WifiCamAlertTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamAlertTable.m; sourceTree = "<group>"; };
+		E6D5106218E9088B00A2EB3B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E6D5106B18E9570F00A2EB3B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E6DC3E4E1A01E9FF00DE2F41 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6DC7A451A1060B3008C400B /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E6DC7A4E1A10B200008C400B /* ChangeSSIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeSSIDViewController.h; sourceTree = "<group>"; };
+		E6DC7A4F1A10B200008C400B /* ChangeSSIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeSSIDViewController.m; sourceTree = "<group>"; };
+		E6E59BB41957FF7700C7D877 /* WifiCamCommonControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamCommonControl.h; sourceTree = "<group>"; };
+		E6E59BB51957FF7700C7D877 /* WifiCamCommonControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamCommonControl.m; sourceTree = "<group>"; };
+		E6E59BB71958006D00C7D877 /* WifiCamPropertyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamPropertyControl.h; sourceTree = "<group>"; };
+		E6E59BB81958006D00C7D877 /* WifiCamPropertyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamPropertyControl.m; sourceTree = "<group>"; };
+		E6E59BBA195800E300C7D877 /* WifiCamActionControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamActionControl.h; sourceTree = "<group>"; };
+		E6E59BBB195800E300C7D877 /* WifiCamActionControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamActionControl.m; sourceTree = "<group>"; };
+		E6E734DA18BB125900A9BF04 /* MWPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MWPhotoBrowser.bundle; path = MWPhotoBrowser/MWPhotoBrowser.bundle; sourceTree = "<group>"; };
+		E6E734DD18BB2B5100A9BF04 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E6E734DF18BB2B7D00A9BF04 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E6F9C8491962A5A600DB5F98 /* WifiCamCollectionViewSelectedCellTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamCollectionViewSelectedCellTable.h; sourceTree = "<group>"; };
+		E6F9C84A1962A5A600DB5F98 /* WifiCamCollectionViewSelectedCellTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamCollectionViewSelectedCellTable.m; sourceTree = "<group>"; };
+		E6FCC2FA1959732F006159D0 /* WifiCamStaticData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiCamStaticData.h; sourceTree = "<group>"; };
+		E6FCC2FB1959732F006159D0 /* WifiCamStaticData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiCamStaticData.m; sourceTree = "<group>"; };
+		E6FF9734186D767F00D8511B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BA7EAC185027C400FA101F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C407C4811D2278AC00C457AC /* CoreBluetooth.framework in Frameworks */,
+				E6C3B30619D7E87800CC2B17 /* libMWPhotoBrowser.a in Frameworks */,
+				E6E734E118BB408E00A9BF04 /* Social.framework in Frameworks */,
+				3A51D1EE1B7B3B1F005EAE6F /* Accounts.framework in Frameworks */,
+				3A51D2AB1B7B4193005EAE6F /* CoreTelephony.framework in Frameworks */,
+				3A51D1F01B7B3B26005EAE6F /* Security.framework in Frameworks */,
+				3A51D2AD1B7B41B0005EAE6F /* CoreData.framework in Frameworks */,
+				3A51D2AF1B7B41CA005EAE6F /* Photos.framework in Frameworks */,
+				E6BA7EB5185027C400FA101F /* CoreGraphics.framework in Frameworks */,
+				E6BA7EB7185027C400FA101F /* UIKit.framework in Frameworks */,
+				E69A60AD1A0AFFFA00F3F0D1 /* OpenGLES.framework in Frameworks */,
+				E61903591A022B4900718032 /* CFNetwork.framework in Frameworks */,
+				E6FF9735186D767F00D8511B /* QuartzCore.framework in Frameworks */,
+				3AD493581C4F66ED001BE4EE /* libicatch_wificam_sdk_arm64.a in Frameworks */,
+				E627C6D51890C597001D2000 /* SystemConfiguration.framework in Frameworks */,
+				3A51D2AA1B7B4123005EAE6F /* libsqlite3.0.dylib in Frameworks */,
+				E609F4BB1872851400BB1A0A /* AssetsLibrary.framework in Frameworks */,
+				3A51D1EC1B7B3AB6005EAE6F /* libYixinSDK_V2.2.a in Frameworks */,
+				3A51D1E31B7B3AB6005EAE6F /* libSocialTwitter.a in Frameworks */,
+				E619035D1A022B7C00718032 /* libz.dylib in Frameworks */,
+				3A51D1DD1B7B3AB5005EAE6F /* libWeiboSDK.a in Frameworks */,
+				3A51D1E01B7B3AB6005EAE6F /* TencentOpenAPI.framework in Frameworks */,
+				E619035B1A022B6D00718032 /* libxml2.dylib in Frameworks */,
+				3A51D1CB1B7B3AB5005EAE6F /* libUMSocial_Sdk_Comment_4.2.3.a in Frameworks */,
+				3A51D1E81B7B3AB6005EAE6F /* libSocialWechat.a in Frameworks */,
+				3A51D1EB1B7B3AB6005EAE6F /* libSocialYiXin.a in Frameworks */,
+				E61903551A022B1100718032 /* MobileCoreServices.framework in Frameworks */,
+				E61903541A022B0600718032 /* CoreLocation.framework in Frameworks */,
+				E61903521A022AF300718032 /* CoreMotion.framework in Frameworks */,
+				3A51D1CA1B7B3AB5005EAE6F /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
+				E691C38C1917561D00052272 /* OpenAL.framework in Frameworks */,
+				3A51D1D61B7B3AB5005EAE6F /* libSocialInstagram.a in Frameworks */,
+				E6A727B91907C78600F52F73 /* CoreMedia.framework in Frameworks */,
+				3A51D1DB1B7B3AB5005EAE6F /* libSocialSina.a in Frameworks */,
+				E6A727B71907BB6D00F52F73 /* CoreImage.framework in Frameworks */,
+				E6A7278A1907A3AE00F52F73 /* MediaPlayer.framework in Frameworks */,
+				3A51D1D71B7B3AB5005EAE6F /* libSocialLaiWang.a in Frameworks */,
+				E6A727831907938800F52F73 /* AVFoundation.framework in Frameworks */,
+				3A51D1DC1B7B3AB5005EAE6F /* libSocialSinaSSO.a in Frameworks */,
+				3A51D1D51B7B3AB5005EAE6F /* libSocialFacebook.a in Frameworks */,
+				3A51D1E91B7B3AB6005EAE6F /* libWeChatSDK.a in Frameworks */,
+				E65BF34518BF04CA00C44371 /* AudioToolbox.framework in Frameworks */,
+				3AD493591C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7.a in Frameworks */,
+				3A51D1D81B7B3AB5005EAE6F /* libSocialLine.a in Frameworks */,
+				3A51D1DA1B7B3AB5005EAE6F /* RennSDK.framework in Frameworks */,
+				3A51D1DF1B7B3AB5005EAE6F /* libSocialQQ.a in Frameworks */,
+				3AD4935A1C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7s.a in Frameworks */,
+				3A51D1E21B7B3AB6005EAE6F /* libSocialTumblr.a in Frameworks */,
+				3A51D1E51B7B3AB6005EAE6F /* libUMSocial_Sdk_ScreenShot_1.0.a in Frameworks */,
+				3A51D1E71B7B3AB6005EAE6F /* libUMSocial_Sdk_Shake_1.0.a in Frameworks */,
+				E609F4BD1872851C00BB1A0A /* ImageIO.framework in Frameworks */,
+				3A51D1D91B7B3AB5005EAE6F /* libSocialRenren.a in Frameworks */,
+				E609F4B91872850500BB1A0A /* MessageUI.framework in Frameworks */,
+				3A51D1EA1B7B3AB6005EAE6F /* libSocialWhatsapp.a in Frameworks */,
+				E6BA7EB3185027C400FA101F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA7ED0185027C500FA101F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BA7ED5185027C500FA101F /* XCTest.framework in Frameworks */,
+				E6BA7ED7185027C500FA101F /* UIKit.framework in Frameworks */,
+				E6BA7ED6185027C500FA101F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A51D1691B7B3AB5005EAE6F /* UMSocial_Sdk_4.2.3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D16A1B7B3AB5005EAE6F /* UMSocialLocalizable.strings */,
+				3A51D16C1B7B3AB5005EAE6F /* Header */,
+				3A51D1781B7B3AB5005EAE6F /* libUMSocial_Sdk_4.2.3.a */,
+				3A51D1791B7B3AB5005EAE6F /* libUMSocial_Sdk_Comment_4.2.3.a */,
+				3A51D17A1B7B3AB5005EAE6F /* SocialSDKXib */,
+				3A51D1831B7B3AB5005EAE6F /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.2.3;
+			sourceTree = "<group>";
+		};
+		3A51D16C1B7B3AB5005EAE6F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D16D1B7B3AB5005EAE6F /* UMSocial.h */,
+				3A51D16E1B7B3AB5005EAE6F /* UMSocialAccountManager.h */,
+				3A51D16F1B7B3AB5005EAE6F /* UMSocialBar.h */,
+				3A51D1701B7B3AB5005EAE6F /* UMSocialConfig.h */,
+				3A51D1711B7B3AB5005EAE6F /* UMSocialControllerService.h */,
+				3A51D1721B7B3AB5005EAE6F /* UMSocialControllerServiceComment.h */,
+				3A51D1731B7B3AB5005EAE6F /* UMSocialData.h */,
+				3A51D1741B7B3AB5005EAE6F /* UMSocialDataService.h */,
+				3A51D1751B7B3AB5005EAE6F /* UMSocialSnsData.h */,
+				3A51D1761B7B3AB5005EAE6F /* UMSocialSnsPlatformManager.h */,
+				3A51D1771B7B3AB5005EAE6F /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		3A51D17A1B7B3AB5005EAE6F /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D17B1B7B3AB5005EAE6F /* UMSCommentDetailController.xib */,
+				3A51D17C1B7B3AB5005EAE6F /* UMSCommentInputController.xib */,
+				3A51D17D1B7B3AB5005EAE6F /* UMSCommentInputControlleriPad.xib */,
+				3A51D17E1B7B3AB5005EAE6F /* UMShareEditViewController.xib */,
+				3A51D17F1B7B3AB5005EAE6F /* UMShareEditViewControlleriPad.xib */,
+				3A51D1801B7B3AB5005EAE6F /* UMSLoginViewController.xib */,
+				3A51D1811B7B3AB5005EAE6F /* UMSnsAccountViewController.xib */,
+				3A51D1821B7B3AB5005EAE6F /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		3A51D1851B7B3AB5005EAE6F /* UMSocial_Sdk_Extra_Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1861B7B3AB5005EAE6F /* Facebook */,
+				3A51D1891B7B3AB5005EAE6F /* Instagram */,
+				3A51D18C1B7B3AB5005EAE6F /* LaiWang */,
+				3A51D18F1B7B3AB5005EAE6F /* Line */,
+				3A51D1921B7B3AB5005EAE6F /* Renren */,
+				3A51D1961B7B3AB5005EAE6F /* Sina */,
+				3A51D1991B7B3AB5005EAE6F /* SinaSSO */,
+				3A51D1A71B7B3AB5005EAE6F /* TencentOpenAPI */,
+				3A51D1AC1B7B3AB5005EAE6F /* Tumblr */,
+				3A51D1AF1B7B3AB5005EAE6F /* Twitter */,
+				3A51D1B21B7B3AB5005EAE6F /* UMSocial_ScreenShot_Sdk */,
+				3A51D1B61B7B3AB5005EAE6F /* UMSocial_Shake_Sdk */,
+				3A51D1BA1B7B3AB5005EAE6F /* Wechat */,
+				3A51D1C01B7B3AB5005EAE6F /* Whatsapp */,
+				3A51D1C31B7B3AB5005EAE6F /* YiXin */,
+			);
+			path = UMSocial_Sdk_Extra_Frameworks;
+			sourceTree = "<group>";
+		};
+		3A51D1861B7B3AB5005EAE6F /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1871B7B3AB5005EAE6F /* libSocialFacebook.a */,
+				3A51D1881B7B3AB5005EAE6F /* UMSocialFacebookHandler.h */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		3A51D1891B7B3AB5005EAE6F /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D18A1B7B3AB5005EAE6F /* libSocialInstagram.a */,
+				3A51D18B1B7B3AB5005EAE6F /* UMSocialInstagramHandler.h */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		3A51D18C1B7B3AB5005EAE6F /* LaiWang */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D18D1B7B3AB5005EAE6F /* libSocialLaiWang.a */,
+				3A51D18E1B7B3AB5005EAE6F /* UMSocialLaiwangHandler.h */,
+			);
+			path = LaiWang;
+			sourceTree = "<group>";
+		};
+		3A51D18F1B7B3AB5005EAE6F /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1901B7B3AB5005EAE6F /* libSocialLine.a */,
+				3A51D1911B7B3AB5005EAE6F /* UMSocialLineHandler.h */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		3A51D1921B7B3AB5005EAE6F /* Renren */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1931B7B3AB5005EAE6F /* libSocialRenren.a */,
+				3A51D1941B7B3AB5005EAE6F /* RennSDK.framework */,
+				3A51D1951B7B3AB5005EAE6F /* UMSocialRenrenHandler.h */,
+			);
+			path = Renren;
+			sourceTree = "<group>";
+		};
+		3A51D1961B7B3AB5005EAE6F /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1971B7B3AB5005EAE6F /* libSocialSina.a */,
+				3A51D1981B7B3AB5005EAE6F /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		3A51D1991B7B3AB5005EAE6F /* SinaSSO */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D19A1B7B3AB5005EAE6F /* libSocialSinaSSO.a */,
+				3A51D19B1B7B3AB5005EAE6F /* libWeiboSDK.a */,
+				3A51D19C1B7B3AB5005EAE6F /* UMSocialSinaSSOHandler.h */,
+				3A51D19D1B7B3AB5005EAE6F /* WBHttpRequest+WeiboShare.h */,
+				3A51D19E1B7B3AB5005EAE6F /* WBHttpRequest+WeiboToken.h */,
+				3A51D19F1B7B3AB5005EAE6F /* WBHttpRequest+WeiboUser.h */,
+				3A51D1A01B7B3AB5005EAE6F /* WBHttpRequest.h */,
+				3A51D1A11B7B3AB5005EAE6F /* WBSDKBasicButton.h */,
+				3A51D1A21B7B3AB5005EAE6F /* WBSDKCommentButton.h */,
+				3A51D1A31B7B3AB5005EAE6F /* WBSDKRelationshipButton.h */,
+				3A51D1A41B7B3AB5005EAE6F /* WeiboSDK.bundle */,
+				3A51D1A51B7B3AB5005EAE6F /* WeiboSDK.h */,
+				3A51D1A61B7B3AB5005EAE6F /* WeiboUser.h */,
+			);
+			path = SinaSSO;
+			sourceTree = "<group>";
+		};
+		3A51D1A71B7B3AB5005EAE6F /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1A81B7B3AB5005EAE6F /* libSocialQQ.a */,
+				3A51D1A91B7B3AB5005EAE6F /* TencentOpenAPI.framework */,
+				3A51D1AA1B7B3AB5005EAE6F /* TencentOpenApi_IOS_Bundle.bundle */,
+				3A51D1AB1B7B3AB5005EAE6F /* UMSocialQQHandler.h */,
+			);
+			path = TencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		3A51D1AC1B7B3AB5005EAE6F /* Tumblr */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1AD1B7B3AB5005EAE6F /* libSocialTumblr.a */,
+				3A51D1AE1B7B3AB5005EAE6F /* UMSocialTumblrHandler.h */,
+			);
+			path = Tumblr;
+			sourceTree = "<group>";
+		};
+		3A51D1AF1B7B3AB5005EAE6F /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1B01B7B3AB5005EAE6F /* libSocialTwitter.a */,
+				3A51D1B11B7B3AB5005EAE6F /* UMSocialTwitterHandler.h */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		3A51D1B21B7B3AB5005EAE6F /* UMSocial_ScreenShot_Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1B31B7B3AB5005EAE6F /* ios-social-sdk-shake.html */,
+				3A51D1B41B7B3AB5005EAE6F /* libUMSocial_Sdk_ScreenShot_1.0.a */,
+				3A51D1B51B7B3AB5005EAE6F /* UMSocialScreenShoter.h */,
+			);
+			path = UMSocial_ScreenShot_Sdk;
+			sourceTree = "<group>";
+		};
+		3A51D1B61B7B3AB5005EAE6F /* UMSocial_Shake_Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1B71B7B3AB5005EAE6F /* ios-social-sdk-shake.html */,
+				3A51D1B81B7B3AB5005EAE6F /* libUMSocial_Sdk_Shake_1.0.a */,
+				3A51D1B91B7B3AB5005EAE6F /* UMSocialShakeService.h */,
+			);
+			path = UMSocial_Shake_Sdk;
+			sourceTree = "<group>";
+		};
+		3A51D1BA1B7B3AB5005EAE6F /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1BB1B7B3AB5005EAE6F /* libSocialWechat.a */,
+				3A51D1BC1B7B3AB5005EAE6F /* libWeChatSDK.a */,
+				3A51D1BD1B7B3AB5005EAE6F /* UMSocialWechatHandler.h */,
+				3A51D1BE1B7B3AB5005EAE6F /* WXApi.h */,
+				3A51D1BF1B7B3AB5005EAE6F /* WXApiObject.h */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		3A51D1C01B7B3AB5005EAE6F /* Whatsapp */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1C11B7B3AB5005EAE6F /* libSocialWhatsapp.a */,
+				3A51D1C21B7B3AB5005EAE6F /* UMSocialWhatsappHandler.h */,
+			);
+			path = Whatsapp;
+			sourceTree = "<group>";
+		};
+		3A51D1C31B7B3AB5005EAE6F /* YiXin */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D1C41B7B3AB5005EAE6F /* libSocialYiXin.a */,
+				3A51D1C51B7B3AB5005EAE6F /* libYixinSDK_V2.2.a */,
+				3A51D1C61B7B3AB5005EAE6F /* UMSocialYiXinHandler.h */,
+				3A51D1C71B7B3AB5005EAE6F /* YXApi.h */,
+				3A51D1C81B7B3AB5005EAE6F /* YXApiObject.h */,
+			);
+			path = YiXin;
+			sourceTree = "<group>";
+		};
+		3A51D2B01B7B4234005EAE6F /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D2B11B7B4234005EAE6F /* libSocialQQ.a */,
+				3A51D2B21B7B4234005EAE6F /* TencentOpenAPI.framework */,
+				3A51D2B31B7B4234005EAE6F /* TencentOpenApi_IOS_Bundle.bundle */,
+				3A51D2B41B7B4234005EAE6F /* UMSocialQQHandler.h */,
+			);
+			name = TencentOpenAPI;
+			path = UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		3AD493241C4F66ED001BE4EE /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3AD493251C4F66ED001BE4EE /* include */,
+				3AD493551C4F66ED001BE4EE /* libicatch_wificam_sdk_arm64.a */,
+				3AD493561C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7.a */,
+				3AD493571C4F66ED001BE4EE /* libicatch_wificam_sdk_armv7s.a */,
+			);
+			name = SDK;
+			path = ../SDK;
+			sourceTree = "<group>";
+		};
+		3AD493251C4F66ED001BE4EE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3AD493261C4F66ED001BE4EE /* CameraMode.h */,
+				3AD493271C4F66ED001BE4EE /* ICatchAudioFormat.h */,
+				3AD493281C4F66ED001BE4EE /* ICatchBurstNumber.h */,
+				3AD493291C4F66ED001BE4EE /* ICatchCameraProperty.h */,
+				3AD4932A1C4F66ED001BE4EE /* ICatchCaptureDelay.h */,
+				3AD4932B1C4F66ED001BE4EE /* IcatchCodec.h */,
+				3AD4932C1C4F66ED001BE4EE /* ICatchDateStamp.h */,
+				3AD4932D1C4F66ED001BE4EE /* ICatchError.h */,
+				3AD4932E1C4F66ED001BE4EE /* ICatchEvent.h */,
+				3AD4932F1C4F66ED001BE4EE /* ICatchEventID.h */,
+				3AD493301C4F66ED001BE4EE /* ICatchFile.h */,
+				3AD493311C4F66ED001BE4EE /* ICatchFileType.h */,
+				3AD493321C4F66ED001BE4EE /* ICatchFrameBuffer.h */,
+				3AD493331C4F66ED001BE4EE /* ICatchFrameSize.h */,
+				3AD493341C4F66ED001BE4EE /* ICatchH264StreamParam.h */,
+				3AD493351C4F66ED001BE4EE /* ICatchLightFrequency.h */,
+				3AD493361C4F66ED001BE4EE /* ICatchLogLevel.h */,
+				3AD493371C4F66ED001BE4EE /* ICatchMJPGStreamParam.h */,
+				3AD493381C4F66ED001BE4EE /* ICatchMJPGStreamParamWithPort.h */,
+				3AD493391C4F66ED001BE4EE /* ICatchMode.h */,
+				3AD4933A1C4F66ED001BE4EE /* ICatchPreviewMode.h */,
+				3AD4933B1C4F66ED001BE4EE /* ICatchPropDataType.h */,
+				3AD4933C1C4F66ED001BE4EE /* ICatchPropertyUtil.h */,
+				3AD4933D1C4F66ED001BE4EE /* ICatchPropFormFlag.h */,
+				3AD4933E1C4F66ED001BE4EE /* ICatchStreamParam.h */,
+				3AD4933F1C4F66ED001BE4EE /* ICatchTUTKMode.h */,
+				3AD493401C4F66ED001BE4EE /* ICatchTUTKType.h */,
+				3AD493411C4F66ED001BE4EE /* ICatchVideoFormat.h */,
+				3AD493421C4F66ED001BE4EE /* ICatchVideoSize.h */,
+				3AD493431C4F66ED001BE4EE /* ICatchWhiteBalance.h */,
+				3AD493441C4F66ED001BE4EE /* ICatchWificam.h */,
+				3AD493451C4F66ED001BE4EE /* ICatchWificamAPI.h */,
+				3AD493461C4F66ED001BE4EE /* ICatchWificamAssist.h */,
+				3AD493471C4F66ED001BE4EE /* ICatchWificamConfig.h */,
+				3AD493481C4F66ED001BE4EE /* ICatchWificamControl.h */,
+				3AD493491C4F66ED001BE4EE /* ICatchWificamInfo.h */,
+				3AD4934A1C4F66ED001BE4EE /* ICatchWificamListener.h */,
+				3AD4934B1C4F66ED001BE4EE /* ICatchWificamLog.h */,
+				3AD4934C1C4F66ED001BE4EE /* ICatchWificamMediaServer.h */,
+				3AD4934D1C4F66ED001BE4EE /* ICatchWificamPlayback.h */,
+				3AD4934E1C4F66ED001BE4EE /* ICatchWificamPreview.h */,
+				3AD4934F1C4F66ED001BE4EE /* ICatchWificamProperty.h */,
+				3AD493501C4F66ED001BE4EE /* ICatchWificamSession.h */,
+				3AD493511C4F66ED001BE4EE /* ICatchWificamState.h */,
+				3AD493521C4F66ED001BE4EE /* ICatchWificamStreamPlayback.h */,
+				3AD493531C4F66ED001BE4EE /* ICatchWificamUtil.h */,
+				3AD493541C4F66ED001BE4EE /* ICatchWificamVideoPlayback.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C42C33771D24AE9E00B25C6F /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				C472D11B1D2F9968002AC680 /* image */,
+				C40AF8B81D2E3DF30054C4F9 /* disarmed.wav */,
+				C40AF8B61D2E3DED0054C4F9 /* armed.wav */,
+				C45627581D37864B009499E8 /* joystick_right_point.png */,
+				C42C33831D24C8EF00B25C6F /* joystick_left_point.png */,
+				C42C33801D24C79200B25C6F /* joystick_background.png */,
+				C44D04701D39D6DB00FBB733 /* backgound.png */,
+				C472D1251D2FA52C002AC680 /* IconTakeOff.png */,
+				C472D1271D2FA554002AC680 /* IconLand.png */,
+				C472D1211D2FA3D5002AC680 /* IconLock.png */,
+				C472D1231D2FA3F6002AC680 /* IconUnLock.png */,
+				C42C337A1D24AF2F00B25C6F /* disconnected.wav */,
+				C42C33781D24AF2A00B25C6F /* connected.wav */,
+				C42C33901D24FA1F00B25C6F /* AccManager.h */,
+				C42C33911D24FA1F00B25C6F /* AccManager.m */,
+				C42C336B1D24AA3D00B25C6F /* Transmitter.h */,
+				C42C336C1D24AA3D00B25C6F /* Transmitter.m */,
+				C42C336D1D24AA3D00B25C6F /* BleSerialManager.h */,
+				C42C336E1D24AA3D00B25C6F /* BleSerialManager.m */,
+				C42C336F1D24AA3D00B25C6F /* OSDCommon.h */,
+				C42C33701D24AA3D00B25C6F /* OSDCommon.mm */,
+				C42C33711D24AA3D00B25C6F /* OSDData.h */,
+				C42C33721D24AA3D00B25C6F /* OSDData.mm */,
+				C42C33861D24F5B800B25C6F /* Channel.h */,
+				C42C33871D24F5B800B25C6F /* Channel.m */,
+				C42C338A1D24F5E200B25C6F /* Settings.h */,
+				C42C338B1D24F5E200B25C6F /* Settings.m */,
+				C42C338D1D24F62500B25C6F /* util.c */,
+				C42C338E1D24F62500B25C6F /* util.h */,
+				C40AF89B1D2DEC5F0054C4F9 /* MMProgressHUDCommon.h */,
+				C40AF89C1D2DEC7C0054C4F9 /* MMProgressHUD+Animations.h */,
+				C40AF89D1D2DEC7C0054C4F9 /* MMProgressHUD+Animations.m */,
+				C40AF89F1D2DEC8F0054C4F9 /* MMProgressHUDWindow.h */,
+				C40AF8A01D2DEC8F0054C4F9 /* MMProgressHUDWindow.m */,
+				C40AF8A21D2DECAE0054C4F9 /* MMProgressHUDViewController.h */,
+				C40AF8A31D2DECAE0054C4F9 /* MMProgressHUDViewController.m */,
+				C40AF8A51D2DECC70054C4F9 /* MMProgressHUDOverlayView.h */,
+				C40AF8A61D2DECC70054C4F9 /* MMProgressHUDOverlayView.m */,
+				C40AF8AF1D2DED290054C4F9 /* MMProgressView-Protocol.h */,
+				C40AF8AB1D2DECE40054C4F9 /* MMLinearProgressView.h */,
+				C40AF8AC1D2DECE40054C4F9 /* MMLinearProgressView.m */,
+				C40AF8B01D2DED430054C4F9 /* MMRadialProgressView.h */,
+				C40AF8B11D2DED430054C4F9 /* MMRadialProgressView.m */,
+				C40AF8A81D2DECD40054C4F9 /* MMVectorImage.h */,
+				C40AF8A91D2DECD40054C4F9 /* MMVectorImage.m */,
+				C40AF8951D2DEA8D0054C4F9 /* MMProgressHUD.h */,
+				C40AF8961D2DEA8D0054C4F9 /* MMProgressHUD.m */,
+				C40AF8981D2DEB5F0054C4F9 /* MMHud.h */,
+				C40AF8991D2DEB5F0054C4F9 /* MMHud.m */,
+			);
+			name = BLE;
+			sourceTree = "<group>";
+		};
+		C472D11B1D2F9968002AC680 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C46C211C1D34CC2500367D81 /* IconMenu.png */,
+				C46C211A1D348AA700367D81 /* Stars@2x.png */,
+				C46C21181D348A8400367D81 /* menu.png */,
+				C46C21151D348A7E00367D81 /* menu@2x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		E608CA8318AB54C700B53D43 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6F9C84C1962A74B00DB5F98 /* Table */,
+				E69403FC19513B23006F86DF /* WifiCamManager.h */,
+				E69403FD19513B23006F86DF /* WifiCamManager.m */,
+				E66B31FC194EC5870094FD81 /* WifiCam.h */,
+				E66B31FD194EC5870094FD81 /* WifiCam.m */,
+				E66B31F1194E8DFE0094FD81 /* WifiCamCamera.h */,
+				E66B31F2194E8DFE0094FD81 /* WifiCamCamera.m */,
+				E66B31FF194ECE9D0094FD81 /* WifiCamPhotoGallery.h */,
+				E66B3200194ECE9D0094FD81 /* WifiCamPhotoGallery.m */,
+				E640043B195918B800768DD2 /* WifiCamControlCenter.h */,
+				E640043C195918B800768DD2 /* WifiCamControlCenter.m */,
+				3AF2AEEE1B40E90C00C1351A /* WifiCamObserver.h */,
+				3AF2AEEB1B40E90600C1351A /* WifiCamObserver.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E640043F195956A800768DD2 /* AudioRes */ = {
+			isa = PBXGroup;
+			children = (
+				E63D0C4818EAD2F700FA18BB /* beep.wav */,
+				E65BF35118BF34E500C44371 /* shutter.wav */,
+			);
+			name = AudioRes;
+			sourceTree = "<group>";
+		};
+		E6466FF1185839A400E5324E /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				C42C33771D24AE9E00B25C6F /* BLE */,
+				3AF2AEEF1B40EB9100C1351A /* WifiCamSDKEventListener.cpp */,
+				3AF2AEF01B40EB9100C1351A /* WifiCamSDKEventListener.h */,
+				E64D4DD0188F7EE1002F09A3 /* StartViewController.h */,
+				E64D4DD1188F7EE2002F09A3 /* StartViewController.m */,
+				E61F28E518C0884900521DD9 /* ViewControllerPrivate.h */,
+				C45627551D37470A009499E8 /* myTabBarController.h */,
+				C45627561D37470A009499E8 /* myTabBarController.m */,
+				E6BA7ECA185027C500FA101F /* ViewController.h */,
+				E6BA7ECB185027C500FA101F /* ViewController.m */,
+				C40AF8BD1D2E47480054C4F9 /* ControlViewController.h */,
+				C40AF8BE1D2E47480054C4F9 /* ControlViewController.m */,
+				C44D04731D3A2B2F00FBB733 /* SecondViewController.h */,
+				C44D04741D3A2B2F00FBB733 /* SecondViewController.m */,
+				C44D04761D3A3ACD00FBB733 /* MediaViewController.h */,
+				C44D04771D3A3ACD00FBB733 /* MediaViewController.m */,
+				E6466FEE1858371100E5324E /* SettingViewController.h */,
+				E6466FEF1858371100E5324E /* SettingViewController.m */,
+				E642AE5C1862BF9F004A1C07 /* SettingDetailViewController.h */,
+				E642AE5D1862BF9F004A1C07 /* SettingDetailViewController.m */,
+				E6DC7A4E1A10B200008C400B /* ChangeSSIDViewController.h */,
+				E6DC7A4F1A10B200008C400B /* ChangeSSIDViewController.m */,
+				E650E943194ACBCF0072D0E8 /* PreviewSDKEventListener.h */,
+				E650E94C194B043B0072D0E8 /* PreviewSDKEventListener.cpp */,
+				E6BB607D19AED1910038AB0F /* PreviewZoomSlider.h */,
+				E6BB607E19AED1910038AB0F /* PreviewZoomSlider.m */,
+				C45D10BD1D33304A00B35494 /* SettingTableViewController.h */,
+				C45D10BE1D33304A00B35494 /* SettingTableViewController.m */,
+				C46C211E1D34D3FC00367D81 /* SetTableViewController.h */,
+				C46C211F1D34D3FC00367D81 /* SetTableViewController.m */,
+				C454E66A1D3C875800076D10 /* SetViewController.h */,
+				C454E66B1D3C875800076D10 /* SetViewController.m */,
+			);
+			name = Preview;
+			sourceTree = "<group>";
+		};
+		E65BF34618BF04FA00C44371 /* WifiCam */ = {
+			isa = PBXGroup;
+			children = (
+				E6630B0B18BD80EF008F7C34 /* MpbPopover.xib */,
+				E6DC7A451A1060B3008C400B /* Main_iPhone.storyboard */,
+				E6630B0418BD8094008F7C34 /* Main_iPad.storyboard */,
+				E6466FF1185839A400E5324E /* Preview */,
+				E6BA7EF618505DDE00FA101F /* PhotoGallery */,
+			);
+			name = WifiCam;
+			sourceTree = "<group>";
+		};
+		E65BF34718BF053000C44371 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E66B31FB194EB8D50094FD81 /* SBTableAlert */,
+				E66B31FA194EB8C70094FD81 /* CustomIOS7AlertView */,
+				E66B31F9194EB8AD0094FD81 /* Reachability */,
+				E66B31F7194EB8880094FD81 /* HYOpenALHelper */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		E65BF34818BF073000C44371 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E640043F195956A800768DD2 /* AudioRes */,
+				E6A4A6161908DD7C005F26F3 /* Images.xcassets */,
+				E6630B0F18BD8121008F7C34 /* Localizable.strings */,
+				E6E734DA18BB125900A9BF04 /* MWPhotoBrowser.bundle */,
+				E6BCD37C188F9FED00ACB899 /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E66B31F7194EB8880094FD81 /* HYOpenALHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E691C38D1917567500052272 /* HYOpenALHelper.h */,
+				E691C38E1917567500052272 /* HYOpenALHelper.m */,
+			);
+			name = HYOpenALHelper;
+			sourceTree = "<group>";
+		};
+		E66B31F9194EB8AD0094FD81 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E627C6D21890BBAB001D2000 /* Reachability.h */,
+				E627C6D31890BBAB001D2000 /* Reachability.m */,
+				E67CC22618B49669007FE36A /* Connection.h */,
+				E67CC22718B49669007FE36A /* Connection.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		E66B31FA194EB8C70094FD81 /* CustomIOS7AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				E64FC417187CE72200DC155F /* CustomIOS7AlertView.h */,
+				E64FC418187CE72200DC155F /* CustomIOS7AlertView.m */,
+			);
+			name = CustomIOS7AlertView;
+			sourceTree = "<group>";
+		};
+		E66B31FB194EB8D50094FD81 /* SBTableAlert */ = {
+			isa = PBXGroup;
+			children = (
+				E662260F187C02C50011DC31 /* SBTableAlert.h */,
+				E6622610187C02C50011DC31 /* SBTableAlert.m */,
+			);
+			name = SBTableAlert;
+			sourceTree = "<group>";
+		};
+		E66B3205194ED0710094FD81 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3A6EDE141BFDAAD400F9D8F9 /* Reachability+Ext.h */,
+				3A6EDE151BFDAAD400F9D8F9 /* Reachability+Ext.m */,
+				E63D0C7418EBF54F00FA18BB /* ExceptionHandler.h */,
+				E63D0C7518EBF55000FA18BB /* ExceptionHandler.m */,
+				E65BF34B18BF081300C44371 /* UtilsMacro.h */,
+				E6B01B8C1952D7B000B78409 /* Tool.h */,
+				E6B01B8D1952D7B000B78409 /* Tool.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		E6A236E9192EE55600BC41BC /* Video Player */ = {
+			isa = PBXGroup;
+			children = (
+				E6B2A9A418CDBBAD00F07A20 /* VideoPlaybackViewController.h */,
+				E6B2A9A518CDBBAD00F07A20 /* VideoPlaybackViewController.m */,
+				E60FA88518F7D9D500C90B77 /* VideoPlaybackProgressView.h */,
+				E60FA88618F7D9D500C90B77 /* VideoPlaybackProgressView.m */,
+				E6701DBC18FB7285004FFE0C /* VideoPlaybackProgressViewBg.h */,
+				E6701DBD18FB7285004FFE0C /* VideoPlaybackProgressViewBg.m */,
+			);
+			name = "Video Player";
+			sourceTree = "<group>";
+		};
+		E6A97D8919EFA7E200039028 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		E6BA7EA6185027C400FA101F = {
+			isa = PBXGroup;
+			children = (
+				E6C3B30019D7E86A00CC2B17 /* MWPhotoBrowser.xcodeproj */,
+				E6BA7EB8185027C400FA101F /* WifiCamMobileApp */,
+				E6BA7EDA185027C500FA101F /* WifiCamMobileAppTests */,
+				E6BA7EB1185027C400FA101F /* Frameworks */,
+				E6BA7EB0185027C400FA101F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6BA7EB0185027C400FA101F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA7EAF185027C400FA101F /* WCMapp2.app */,
+				E6BA7ED3185027C500FA101F /* WCMapp2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BA7EB1185027C400FA101F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C407C4801D2278AC00C457AC /* CoreBluetooth.framework */,
+				3AD493241C4F66ED001BE4EE /* SDK */,
+				3A51D2B51B7B426C005EAE6F /* TencentOpenAPI */,
+				3A51D2B01B7B4234005EAE6F /* TencentOpenAPI */,
+				3A51D2AE1B7B41CA005EAE6F /* Photos.framework */,
+				3A51D2AC1B7B41B0005EAE6F /* CoreData.framework */,
+				3A51D2A91B7B4123005EAE6F /* libsqlite3.0.dylib */,
+				3A51D1EF1B7B3B26005EAE6F /* Security.framework */,
+				3A51D1ED1B7B3B1F005EAE6F /* Accounts.framework */,
+				3A51D1691B7B3AB5005EAE6F /* UMSocial_Sdk_4.2.3 */,
+				3A51D1851B7B3AB5005EAE6F /* UMSocial_Sdk_Extra_Frameworks */,
+				E619035C1A022B7C00718032 /* libz.dylib */,
+				E619035A1A022B6D00718032 /* libxml2.dylib */,
+				E61903581A022B4900718032 /* CFNetwork.framework */,
+				E61903561A022B4000718032 /* OpenGLES.framework */,
+				E61903531A022B0600718032 /* CoreLocation.framework */,
+				E61903511A022AF300718032 /* CoreMotion.framework */,
+				E691C38B1917561D00052272 /* OpenAL.framework */,
+				E691C38919171B8500052272 /* AudioUnit.framework */,
+				E6A727B81907C78600F52F73 /* CoreMedia.framework */,
+				E6A727B61907BB6D00F52F73 /* CoreImage.framework */,
+				E6A72786190793A100F52F73 /* CoreAudio.framework */,
+				E6A727841907939A00F52F73 /* CoreVideo.framework */,
+				E6A727821907938800F52F73 /* AVFoundation.framework */,
+				E6D5106B18E9570F00A2EB3B /* CoreFoundation.framework */,
+				E6D5106218E9088B00A2EB3B /* CoreTelephony.framework */,
+				E65BF35318BF437A00C44371 /* MediaPlayer.framework */,
+				E65BF34418BF04CA00C44371 /* AudioToolbox.framework */,
+				E6E734DF18BB2B7D00A9BF04 /* MobileCoreServices.framework */,
+				E6E734DD18BB2B5100A9BF04 /* Social.framework */,
+				E64D4DCE188F699E002F09A3 /* SystemConfiguration.framework */,
+				E609F4BC1872851C00BB1A0A /* ImageIO.framework */,
+				E609F4BA1872851400BB1A0A /* AssetsLibrary.framework */,
+				E609F4B81872850500BB1A0A /* MessageUI.framework */,
+				E6FF9734186D767F00D8511B /* QuartzCore.framework */,
+				E6BA7EB2185027C400FA101F /* Foundation.framework */,
+				E6BA7EB4185027C400FA101F /* CoreGraphics.framework */,
+				E6BA7EB6185027C400FA101F /* UIKit.framework */,
+				E6BA7ED4185027C500FA101F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BA7EB8185027C400FA101F /* WifiCamMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				E6E59BB21957FF0600C7D877 /* Data */,
+				E608CA8318AB54C700B53D43 /* Models */,
+				E6E59BB31957FF2100C7D877 /* Business */,
+				E65BF34618BF04FA00C44371 /* WifiCam */,
+				E66B3205194ED0710094FD81 /* Helper */,
+				E65BF34818BF073000C44371 /* Resources */,
+				E65BF34718BF053000C44371 /* Libraries */,
+				E6BA7EC1185027C400FA101F /* AppDelegate.h */,
+				E6BA7EC2185027C400FA101F /* AppDelegate.m */,
+				E6BA7EB9185027C400FA101F /* Supporting Files */,
+			);
+			path = WifiCamMobileApp;
+			sourceTree = "<group>";
+		};
+		E6BA7EB9185027C400FA101F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C472D1291D2FB618002AC680 /* Setting.plist */,
+				E6BA7EBA185027C400FA101F /* WCMapp2-Info.plist */,
+				E6BA7EBE185027C400FA101F /* main.m */,
+				E6BA7EC0185027C400FA101F /* WCMapp2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6BA7EDA185027C500FA101F /* WifiCamMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA7EE0185027C500FA101F /* WifiCamMobileAppTests.m */,
+				E6BA7EDB185027C500FA101F /* Supporting Files */,
+			);
+			path = WifiCamMobileAppTests;
+			sourceTree = "<group>";
+		};
+		E6BA7EDB185027C500FA101F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA7EDC185027C500FA101F /* WifiCamMobileAppTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6BA7EF618505DDE00FA101F /* PhotoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				E6D1E25219EE3E3D000E0F36 /* Activity */,
+				E61F28E418C0804A00521DD9 /* MpbViewControllerPrivate.h */,
+				E6BA7EEA18502B1B00FA101F /* MpbViewController.h */,
+				E6BA7EEB18502B1B00FA101F /* MpbViewController.m */,
+				E6A4F8341869B7CC0095EBBC /* MpbPopoverViewController.h */,
+				E6A4F8351869B7CC0095EBBC /* MpbPopoverViewController.m */,
+				E6BA7EF718505E1C00FA101F /* MpbCollectionViewCell.h */,
+				E6BA7EF818505E1C00FA101F /* MpbCollectionViewCell.m */,
+				E6AB2B2C1867FE7D0004CE10 /* MpbCollectionHeaderView.h */,
+				E6AB2B2D1867FE7D0004CE10 /* MpbCollectionHeaderView.m */,
+				E6A236E9192EE55600BC41BC /* Video Player */,
+				E650E945194AFF820072D0E8 /* MpbSDKEventListener.h */,
+				E650E94A194B03400072D0E8 /* MpbSDKEventListener.cpp */,
+			);
+			name = PhotoGallery;
+			sourceTree = "<group>";
+		};
+		E6C3B30119D7E86A00CC2B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6C3B30519D7E86A00CC2B17 /* libMWPhotoBrowser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D1E25219EE3E3D000E0F36 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				3A51D2151B7B3CA7005EAE6F /* ActivityWrapper.h */,
+				3A51D2161B7B3CA7005EAE6F /* ActivityWrapper.m */,
+				3A51D1F11B7B3C85005EAE6F /* UIActivityDownload.h */,
+				3A51D1F21B7B3C85005EAE6F /* UIActivityDownload.m */,
+				3A51D1F31B7B3C85005EAE6F /* UIActivityEmail.h */,
+				3A51D1F41B7B3C85005EAE6F /* UIActivityEmail.m */,
+				3A51D1F51B7B3C85005EAE6F /* UIActivityFacebook.h */,
+				3A51D1F61B7B3C85005EAE6F /* UIActivityFacebook.m */,
+				3A51D1F71B7B3C85005EAE6F /* UIActivityItemImage.h */,
+				3A51D1F81B7B3C85005EAE6F /* UIActivityItemImage.m */,
+				3A51D1F91B7B3C85005EAE6F /* UIActivityItemVideo.h */,
+				3A51D1FA1B7B3C85005EAE6F /* UIActivityItemVideo.m */,
+				3A51D1FB1B7B3C85005EAE6F /* UIActivityQQ.h */,
+				3A51D1FC1B7B3C85005EAE6F /* UIActivityQQ.m */,
+				3A51D1FD1B7B3C85005EAE6F /* UIActivityTencentWeibo.h */,
+				3A51D1FE1B7B3C85005EAE6F /* UIActivityTencentWeibo.m */,
+				3A51D1FF1B7B3C85005EAE6F /* UIActivityTwitter.h */,
+				3A51D2001B7B3C85005EAE6F /* UIActivityTwitter.m */,
+				3A51D2011B7B3C85005EAE6F /* UIActivityWechatFavorite.h */,
+				3A51D2021B7B3C85005EAE6F /* UIActivityWechatFavorite.m */,
+				3A51D2031B7B3C85005EAE6F /* UIActivityWechatSession.h */,
+				3A51D2041B7B3C85005EAE6F /* UIActivityWechatSession.m */,
+				3A51D2051B7B3C85005EAE6F /* UIActivityWechatTimeline.h */,
+				3A51D2061B7B3C85005EAE6F /* UIActivityWechatTimeline.m */,
+				3A51D2071B7B3C85005EAE6F /* UIActivityWeibo.h */,
+				3A51D2081B7B3C85005EAE6F /* UIActivityWeibo.m */,
+				E6EA19F11A134685001E8386 /* Images */,
+				E6A97D8919EFA7E200039028 /* Item */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		E6E59BB21957FF0600C7D877 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E60537531851D65E003E73EA /* SDK.h */,
+				E60537541851D65E003E73EA /* SDK.m */,
+				E6FCC2FA1959732F006159D0 /* WifiCamStaticData.h */,
+				E6FCC2FB1959732F006159D0 /* WifiCamStaticData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		E6E59BB31957FF2100C7D877 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				E6E59BB41957FF7700C7D877 /* WifiCamCommonControl.h */,
+				E6E59BB51957FF7700C7D877 /* WifiCamCommonControl.m */,
+				E6E59BBA195800E300C7D877 /* WifiCamActionControl.h */,
+				E6E59BBB195800E300C7D877 /* WifiCamActionControl.m */,
+				E6E59BB71958006D00C7D877 /* WifiCamPropertyControl.h */,
+				E6E59BB81958006D00C7D877 /* WifiCamPropertyControl.m */,
+				E6143D1719614C7200D7C639 /* WifiCamFileControl.h */,
+				E6143D1819614C7200D7C639 /* WifiCamFileControl.m */,
+				E6546C8719639D2C00253791 /* WifiCamPlaybackControl.h */,
+				E6546C8819639D2C00253791 /* WifiCamPlaybackControl.m */,
+				E6143D1A1961699400D7C639 /* WifiCamControl.h */,
+				E6143D1B1961699400D7C639 /* WifiCamControl.m */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		E6EA19F11A134685001E8386 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E6F9C84C1962A74B00DB5F98 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				E6C7A07F18602E6400C3C2C3 /* WifiCamAlertTable.h */,
+				E6C7A08018602E6400C3C2C3 /* WifiCamAlertTable.m */,
+				E6F9C8491962A5A600DB5F98 /* WifiCamCollectionViewSelectedCellTable.h */,
+				E6F9C84A1962A5A600DB5F98 /* WifiCamCollectionViewSelectedCellTable.m */,
+				E6546C8A1963A6F000253791 /* WifiCamAVData.h */,
+				E6546C8B1963A6F000253791 /* WifiCamAVData.m */,
+				E6B2188419656F7600974A02 /* WifiCamFileTable.h */,
+				E6B2188519656F7600974A02 /* WifiCamFileTable.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6BA7EAE185027C400FA101F /* WCMapp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BA7EE4185027C500FA101F /* Build configuration list for PBXNativeTarget "WCMapp2" */;
+			buildPhases = (
+				E6BA7EAB185027C400FA101F /* Sources */,
+				E6BA7EAC185027C400FA101F /* Frameworks */,
+				E6BCD380188FAEEC00ACB899 /* Run Script */,
+				E6BA7EAD185027C400FA101F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCMapp2;
+			productName = WifiCamMobileApp;
+			productReference = E6BA7EAF185027C400FA101F /* WCMapp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6BA7ED2185027C500FA101F /* WCMapp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BA7EE7185027C500FA101F /* Build configuration list for PBXNativeTarget "WCMapp2Tests" */;
+			buildPhases = (
+				E6BA7ECF185027C500FA101F /* Sources */,
+				E6BA7ED0185027C500FA101F /* Frameworks */,
+				E6BA7ED1185027C500FA101F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6BA7ED9185027C500FA101F /* PBXTargetDependency */,
+			);
+			name = WCMapp2Tests;
+			productName = WifiCamMobileAppTests;
+			productReference = E6BA7ED3185027C500FA101F /* WCMapp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6BA7EA7185027C400FA101F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = iCatchTech;
+				TargetAttributes = {
+					E6BA7EAE185027C400FA101F = {
+						DevelopmentTeam = WLLHJG4UCD;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					E6BA7ED2185027C500FA101F = {
+						TestTargetID = E6BA7EAE185027C400FA101F;
+					};
+				};
+			};
+			buildConfigurationList = E6BA7EAA185027C400FA101F /* Build configuration list for PBXProject "WCMapp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				fr,
+				ja,
+				ko,
+				pt,
+				ru,
+				pl,
+				de,
+			);
+			mainGroup = E6BA7EA6185027C400FA101F;
+			productRefGroup = E6BA7EB0185027C400FA101F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E6C3B30119D7E86A00CC2B17 /* Products */;
+					ProjectRef = E6C3B30019D7E86A00CC2B17 /* MWPhotoBrowser.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E6BA7EAE185027C400FA101F /* WCMapp2 */,
+				E6BA7ED2185027C500FA101F /* WCMapp2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E6C3B30519D7E86A00CC2B17 /* libMWPhotoBrowser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMWPhotoBrowser.a;
+			remoteRef = E6C3B30419D7E86A00CC2B17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6BA7EAD185027C400FA101F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42C33841D24C8EF00B25C6F /* joystick_left_point.png in Resources */,
+				3A51D1D21B7B3AB5005EAE6F /* UMSnsAccountViewController.xib in Resources */,
+				3A51D1CF1B7B3AB5005EAE6F /* UMShareEditViewController.xib in Resources */,
+				E65BF35218BF34E500C44371 /* shutter.wav in Resources */,
+				E6DC7A461A1060B3008C400B /* Main_iPhone.storyboard in Resources */,
+				C42C33791D24AF2A00B25C6F /* connected.wav in Resources */,
+				C42C33811D24C79200B25C6F /* joystick_background.png in Resources */,
+				3A51D1C91B7B3AB5005EAE6F /* UMSocialLocalizable.strings in Resources */,
+				C46C211D1D34CC2500367D81 /* IconMenu.png in Resources */,
+				E6630B0C18BD80EF008F7C34 /* MpbPopover.xib in Resources */,
+				3A51D1D01B7B3AB5005EAE6F /* UMShareEditViewControlleriPad.xib in Resources */,
+				3A51D1E41B7B3AB6005EAE6F /* ios-social-sdk-shake.html in Resources */,
+				3A51D1DE1B7B3AB5005EAE6F /* WeiboSDK.bundle in Resources */,
+				3A51D1CC1B7B3AB5005EAE6F /* UMSCommentDetailController.xib in Resources */,
+				E6630B0518BD8094008F7C34 /* Main_iPad.storyboard in Resources */,
+				C45627591D37864B009499E8 /* joystick_right_point.png in Resources */,
+				3A51D1D11B7B3AB5005EAE6F /* UMSLoginViewController.xib in Resources */,
+				C42C337B1D24AF2F00B25C6F /* disconnected.wav in Resources */,
+				3A51D1CD1B7B3AB5005EAE6F /* UMSCommentInputController.xib in Resources */,
+				C46C211B1D348AA700367D81 /* Stars@2x.png in Resources */,
+				E6A4A6171908DD7C005F26F3 /* Images.xcassets in Resources */,
+				C40AF8B71D2E3DED0054C4F9 /* armed.wav in Resources */,
+				E6630B1118BD8121008F7C34 /* Localizable.strings in Resources */,
+				C46C21191D348A8400367D81 /* menu.png in Resources */,
+				E6BCD37D188F9FED00ACB899 /* Settings.bundle in Resources */,
+				3A51D1D41B7B3AB5005EAE6F /* UMSocialSDKResourcesNew.bundle in Resources */,
+				C46C21161D348A7E00367D81 /* menu@2x.png in Resources */,
+				E63D0C4918EAD2F700FA18BB /* beep.wav in Resources */,
+				C472D12A1D2FB618002AC680 /* Setting.plist in Resources */,
+				C40AF8B91D2E3DF30054C4F9 /* disarmed.wav in Resources */,
+				C44D04711D39D6DB00FBB733 /* backgound.png in Resources */,
+				3A51D1CE1B7B3AB5005EAE6F /* UMSCommentInputControlleriPad.xib in Resources */,
+				C472D1221D2FA3D5002AC680 /* IconLock.png in Resources */,
+				3A51D1E61B7B3AB6005EAE6F /* ios-social-sdk-shake.html in Resources */,
+				C472D1261D2FA52C002AC680 /* IconTakeOff.png in Resources */,
+				3A51D1E11B7B3AB6005EAE6F /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				E6E734DB18BB125900A9BF04 /* MWPhotoBrowser.bundle in Resources */,
+				3A51D1D31B7B3AB5005EAE6F /* UMSShareListController.xib in Resources */,
+				C472D1281D2FA554002AC680 /* IconLand.png in Resources */,
+				C472D1241D2FA3F6002AC680 /* IconUnLock.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA7ED1185027C500FA101F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6BCD380188FAEEC00ACB899 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# xcode-build-bump.sh\n\n# @desc Auto-increment the build number every time the project is run.\n\n# @usage\n\n# 1. Select: your Target in Xcode\n\n# 2. Select: Build Phases Tab\n\n# 3. Select: Add Build Phase -> Add Run Script\n\n# 4. Paste code below in to new \"Run Script\" section\n\n# 5. Drag the \"Run Script\" below \"Link Binaries With Libraries\"\n\n# 6. Insure that your starting build number is set to a whole integer and not a float (e.g. 1, not 1.0)\n\n\n\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\n\nbuildNumber=$(($buildNumber + 1))\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n\n# update build number\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:2:DefaultValue $buildNumber\" \"${PROJECT_DIR}/WifiCamMobileApp/Settings.bundle/Root.plist\"\n\n# update version number to Setting bundle\n\nVERSIONNUM=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $VERSIONNUM\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:1:DefaultValue $VERSIONNUM\" \"${PROJECT_DIR}/WifiCamMobileApp/Settings.bundle/Root.plist\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6BA7EAB185027C400FA101F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A51D2111B7B3C85005EAE6F /* UIActivityWechatFavorite.m in Sources */,
+				E6BA7EF918505E1C00FA101F /* MpbCollectionViewCell.m in Sources */,
+				3A51D20D1B7B3C85005EAE6F /* UIActivityItemVideo.m in Sources */,
+				E6546C8C1963A6F000253791 /* WifiCamAVData.m in Sources */,
+				C42C33741D24AA3D00B25C6F /* BleSerialManager.m in Sources */,
+				E650E94B194B03400072D0E8 /* MpbSDKEventListener.cpp in Sources */,
+				3AF2AEEC1B40E90600C1351A /* WifiCamObserver.m in Sources */,
+				C454E66C1D3C875800076D10 /* SetViewController.m in Sources */,
+				E6B2A9A618CDBBAD00F07A20 /* VideoPlaybackViewController.m in Sources */,
+				C42C33761D24AA3D00B25C6F /* OSDData.mm in Sources */,
+				E66B31F3194E8DFE0094FD81 /* WifiCamCamera.m in Sources */,
+				E69403FE19513B23006F86DF /* WifiCamManager.m in Sources */,
+				E6B2188619656F7600974A02 /* WifiCamFileTable.m in Sources */,
+				E63D0C7618EBF55000FA18BB /* ExceptionHandler.m in Sources */,
+				E66B3201194ECE9D0094FD81 /* WifiCamPhotoGallery.m in Sources */,
+				3A51D20C1B7B3C85005EAE6F /* UIActivityItemImage.m in Sources */,
+				3A51D2121B7B3C85005EAE6F /* UIActivityWechatSession.m in Sources */,
+				C45D10BF1D33304A00B35494 /* SettingTableViewController.m in Sources */,
+				E6E59BB91958006D00C7D877 /* WifiCamPropertyControl.m in Sources */,
+				E6BA7ECC185027C500FA101F /* ViewController.m in Sources */,
+				C40AF8971D2DEA8D0054C4F9 /* MMProgressHUD.m in Sources */,
+				E60FA88718F7D9D500C90B77 /* VideoPlaybackProgressView.m in Sources */,
+				C40AF8A11D2DEC8F0054C4F9 /* MMProgressHUDWindow.m in Sources */,
+				E66B31FE194EC5870094FD81 /* WifiCam.m in Sources */,
+				C40AF8BF1D2E47480054C4F9 /* ControlViewController.m in Sources */,
+				C42C338C1D24F5E200B25C6F /* Settings.m in Sources */,
+				C42C338F1D24F62500B25C6F /* util.c in Sources */,
+				E642AE5E1862BF9F004A1C07 /* SettingDetailViewController.m in Sources */,
+				3A51D20F1B7B3C85005EAE6F /* UIActivityTencentWeibo.m in Sources */,
+				E64D4DD2188F7EE2002F09A3 /* StartViewController.m in Sources */,
+				3A51D2131B7B3C85005EAE6F /* UIActivityWechatTimeline.m in Sources */,
+				E627C6D41890BBAB001D2000 /* Reachability.m in Sources */,
+				3A51D2101B7B3C85005EAE6F /* UIActivityTwitter.m in Sources */,
+				E6BA7EC3185027C400FA101F /* AppDelegate.m in Sources */,
+				E640043D195918B800768DD2 /* WifiCamControlCenter.m in Sources */,
+				C40AF89A1D2DEB5F0054C4F9 /* MMHud.m in Sources */,
+				C40AF8AD1D2DECE40054C4F9 /* MMLinearProgressView.m in Sources */,
+				E6DC7A501A10B200008C400B /* ChangeSSIDViewController.m in Sources */,
+				C42C33881D24F5B800B25C6F /* Channel.m in Sources */,
+				C42C33921D24FA1F00B25C6F /* AccManager.m in Sources */,
+				E60537551851D65E003E73EA /* SDK.m in Sources */,
+				3A6EDE161BFDAAD400F9D8F9 /* Reachability+Ext.m in Sources */,
+				E6E59BBC195800E300C7D877 /* WifiCamActionControl.m in Sources */,
+				E691C38F1917567500052272 /* HYOpenALHelper.m in Sources */,
+				E67CC22818B49669007FE36A /* Connection.m in Sources */,
+				E6622611187C02C50011DC31 /* SBTableAlert.m in Sources */,
+				C40AF8AA1D2DECD40054C4F9 /* MMVectorImage.m in Sources */,
+				E6546C8919639D2C00253791 /* WifiCamPlaybackControl.m in Sources */,
+				3A51D2141B7B3C85005EAE6F /* UIActivityWeibo.m in Sources */,
+				3A51D2171B7B3CA7005EAE6F /* ActivityWrapper.m in Sources */,
+				C44D04781D3A3ACD00FBB733 /* MediaViewController.m in Sources */,
+				3A51D20B1B7B3C85005EAE6F /* UIActivityFacebook.m in Sources */,
+				E6BB607F19AED1910038AB0F /* PreviewZoomSlider.m in Sources */,
+				E6B01B8E1952D7B000B78409 /* Tool.m in Sources */,
+				C40AF8B21D2DED430054C4F9 /* MMRadialProgressView.m in Sources */,
+				C42C33731D24AA3D00B25C6F /* Transmitter.m in Sources */,
+				3A51D20E1B7B3C85005EAE6F /* UIActivityQQ.m in Sources */,
+				E6AB2B2E1867FE7D0004CE10 /* MpbCollectionHeaderView.m in Sources */,
+				E6143D1C1961699400D7C639 /* WifiCamControl.m in Sources */,
+				3A51D2091B7B3C85005EAE6F /* UIActivityDownload.m in Sources */,
+				C40AF8A41D2DECAE0054C4F9 /* MMProgressHUDViewController.m in Sources */,
+				3AF2AEF11B40EB9100C1351A /* WifiCamSDKEventListener.cpp in Sources */,
+				C44D04751D3A2B2F00FBB733 /* SecondViewController.m in Sources */,
+				E6BA7EBF185027C400FA101F /* main.m in Sources */,
+				C42C33751D24AA3D00B25C6F /* OSDCommon.mm in Sources */,
+				E6FCC2FC1959732F006159D0 /* WifiCamStaticData.m in Sources */,
+				E6A4F8361869B7CC0095EBBC /* MpbPopoverViewController.m in Sources */,
+				E6701DBE18FB7285004FFE0C /* VideoPlaybackProgressViewBg.m in Sources */,
+				E6466FE2185807E200E5324E /* MpbViewController.m in Sources */,
+				E6E59BB61957FF7700C7D877 /* WifiCamCommonControl.m in Sources */,
+				E6466FF01858371100E5324E /* SettingViewController.m in Sources */,
+				E6143D1919614C7200D7C639 /* WifiCamFileControl.m in Sources */,
+				C40AF8A71D2DECC70054C4F9 /* MMProgressHUDOverlayView.m in Sources */,
+				E650E94D194B043B0072D0E8 /* PreviewSDKEventListener.cpp in Sources */,
+				C40AF89E1D2DEC7C0054C4F9 /* MMProgressHUD+Animations.m in Sources */,
+				E64FC419187CE72200DC155F /* CustomIOS7AlertView.m in Sources */,
+				C45627571D37470A009499E8 /* myTabBarController.m in Sources */,
+				3A51D20A1B7B3C85005EAE6F /* UIActivityEmail.m in Sources */,
+				E6C7A08118602E6400C3C2C3 /* WifiCamAlertTable.m in Sources */,
+				C46C21201D34D3FC00367D81 /* SetTableViewController.m in Sources */,
+				E6F9C84B1962A5A600DB5F98 /* WifiCamCollectionViewSelectedCellTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA7ECF185027C500FA101F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BA7EE1185027C500FA101F /* WifiCamMobileAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6BA7ED9185027C500FA101F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6BA7EAE185027C400FA101F /* WCMapp2 */;
+			targetProxy = E6BA7ED8185027C500FA101F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A51D16A1B7B3AB5005EAE6F /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A51D16B1B7B3AB5005EAE6F /* en */,
+				3A51D1841B7B3AB5005EAE6F /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		E6630B0F18BD8121008F7C34 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6630B1018BD8121008F7C34 /* Base */,
+				E6630B1218BD8128008F7C34 /* en */,
+				E6630B1318BD812E008F7C34 /* zh-Hans */,
+				E6630B1418BD8135008F7C34 /* zh-Hant */,
+				E673EE04194FE51900E07455 /* fr */,
+				E673EE05194FE52200E07455 /* ja */,
+				E673EE06194FE52900E07455 /* ko */,
+				E673EE07194FE53800E07455 /* pt */,
+				E673EE08194FE55100E07455 /* ru */,
+				E6DC3E4E1A01E9FF00DE2F41 /* pl */,
+				3A036DB21AAD755200DDF5F4 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6BA7EE2185027C500FA101F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6BA7EE3185027C500FA101F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6BA7EE5185027C500FA101F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WLLHJG4UCD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Renren",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiCamMobileApp/WCMapp2-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"./**",
+				);
+				INFOPLIST_FILE = "WifiCamMobileApp/WCMapp2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Facebook",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/LaiWang",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Line",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Renren",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Tumblr",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Twitter",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Whatsapp",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/YiXin",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenAPI.framework",
+					"\"$(SRCROOT)/../SDK\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WCMapp2;
+				PRODUCT_NAME = WCMapp2;
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6BA7EE6185027C500FA101F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WLLHJG4UCD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Renren",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiCamMobileApp/WCMapp2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"./**",
+				);
+				INFOPLIST_FILE = "WifiCamMobileApp/WCMapp2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Facebook",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Instagram",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/LaiWang",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Line",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Renren",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Tumblr",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Twitter",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Whatsapp",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/YiXin",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenAPI.framework",
+					"\"$(SRCROOT)/../SDK\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WCMapp2;
+				PRODUCT_NAME = WCMapp2;
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E6BA7EE8185027C500FA101F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WCMapp2.app/WCMapp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiCamMobileApp/WCMapp2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "WifiCamMobileAppTests/WCMapp2Tests-Info.plist";
+				PRODUCT_NAME = WCMapp2Tests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"/**";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E6BA7EE9185027C500FA101F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WCMapp2.app/WCMapp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiCamMobileApp/WCMapp2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "WifiCamMobileAppTests/WCMapp2Tests-Info.plist";
+				PRODUCT_NAME = WCMapp2Tests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"/**";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6BA7EAA185027C400FA101F /* Build configuration list for PBXProject "WCMapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BA7EE2185027C500FA101F /* Debug */,
+				E6BA7EE3185027C500FA101F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BA7EE4185027C500FA101F /* Build configuration list for PBXNativeTarget "WCMapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BA7EE5185027C500FA101F /* Debug */,
+				E6BA7EE6185027C500FA101F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BA7EE7185027C500FA101F /* Build configuration list for PBXNativeTarget "WCMapp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BA7EE8185027C500FA101F /* Debug */,
+				E6BA7EE9185027C500FA101F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6BA7EA7185027C400FA101F /* Project object */;
+}
